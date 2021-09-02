@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build
 
 # Include any dependencies generated for this target.
 include esp-idf/app_update/CMakeFiles/__idf_app_update.dir/depend.make
@@ -70,32 +70,32 @@ include esp-idf/app_update/CMakeFiles/__idf_app_update.dir/progress.make
 include esp-idf/app_update/CMakeFiles/__idf_app_update.dir/flags.make
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/flags.make
-esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj: ../../../../components/app_update/esp_ota_ops.c
+esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj: ../../../../../components/app_update/esp_ota_ops.c
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/app_update && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj -MF CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj.d -o CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj -c /Users/eabaca/esp/esp-idf/components/app_update/esp_ota_ops.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj"
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/app_update && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj -MF CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj.d -o CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj -c /Users/eabaca/esp/esp-idf/components/app_update/esp_ota_ops.c
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.i"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/app_update && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/components/app_update/esp_ota_ops.c > CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/app_update && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/components/app_update/esp_ota_ops.c > CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.i
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.s"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/app_update && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/components/app_update/esp_ota_ops.c -o CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/app_update && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/components/app_update/esp_ota_ops.c -o CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.s
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/flags.make
-esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj: ../../../../components/app_update/esp_app_desc.c
+esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj: ../../../../../components/app_update/esp_app_desc.c
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/app_update && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) -D PROJECT_NAME=\"blink\" -DPROJECT_VER=\"d9da29e-dirty\" $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj -MF CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj.d -o CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj -c /Users/eabaca/esp/esp-idf/components/app_update/esp_app_desc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj"
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/app_update && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) -D PROJECT_NAME=\"blink\" -DPROJECT_VER=\"71fbfe6-dirty\" $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj -MF CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj.d -o CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj -c /Users/eabaca/esp/esp-idf/components/app_update/esp_app_desc.c
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_app_update.dir/esp_app_desc.c.i"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/app_update && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) -D PROJECT_NAME=\"blink\" -DPROJECT_VER=\"d9da29e-dirty\" $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/components/app_update/esp_app_desc.c > CMakeFiles/__idf_app_update.dir/esp_app_desc.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/app_update && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) -D PROJECT_NAME=\"blink\" -DPROJECT_VER=\"71fbfe6-dirty\" $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/components/app_update/esp_app_desc.c > CMakeFiles/__idf_app_update.dir/esp_app_desc.c.i
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_app_update.dir/esp_app_desc.c.s"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/app_update && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) -D PROJECT_NAME=\"blink\" -DPROJECT_VER=\"d9da29e-dirty\" $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/components/app_update/esp_app_desc.c -o CMakeFiles/__idf_app_update.dir/esp_app_desc.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/app_update && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) -D PROJECT_NAME=\"blink\" -DPROJECT_VER=\"71fbfe6-dirty\" $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/components/app_update/esp_app_desc.c -o CMakeFiles/__idf_app_update.dir/esp_app_desc.c.s
 
 # Object files for target __idf_app_update
 __idf_app_update_OBJECTS = \
@@ -109,19 +109,19 @@ esp-idf/app_update/libapp_update.a: esp-idf/app_update/CMakeFiles/__idf_app_upda
 esp-idf/app_update/libapp_update.a: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj
 esp-idf/app_update/libapp_update.a: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/build.make
 esp-idf/app_update/libapp_update.a: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libapp_update.a"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/app_update && $(CMAKE_COMMAND) -P CMakeFiles/__idf_app_update.dir/cmake_clean_target.cmake
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/app_update && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_app_update.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libapp_update.a"
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/app_update && $(CMAKE_COMMAND) -P CMakeFiles/__idf_app_update.dir/cmake_clean_target.cmake
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/app_update && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_app_update.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/build: esp-idf/app_update/libapp_update.a
 .PHONY : esp-idf/app_update/CMakeFiles/__idf_app_update.dir/build
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/clean:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/app_update && $(CMAKE_COMMAND) -P CMakeFiles/__idf_app_update.dir/cmake_clean.cmake
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/app_update && $(CMAKE_COMMAND) -P CMakeFiles/__idf_app_update.dir/cmake_clean.cmake
 .PHONY : esp-idf/app_update/CMakeFiles/__idf_app_update.dir/clean
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/get-started/blink /Users/eabaca/esp/esp-idf/components/app_update /Users/eabaca/esp/esp-idf/examples/get-started/blink/build /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/app_update /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/app_update/CMakeFiles/__idf_app_update.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup /Users/eabaca/esp/esp-idf/components/app_update /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/app_update /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/app_update/CMakeFiles/__idf_app_update.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/app_update/CMakeFiles/__idf_app_update.dir/depend
 

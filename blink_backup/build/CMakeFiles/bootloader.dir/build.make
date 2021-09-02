@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build
 
 # Utility rule file for bootloader.
 
@@ -76,51 +76,51 @@ CMakeFiles/bootloader-complete: bootloader-prefix/src/bootloader-stamp/bootloade
 CMakeFiles/bootloader-complete: bootloader-prefix/src/bootloader-stamp/bootloader-configure
 CMakeFiles/bootloader-complete: bootloader-prefix/src/bootloader-stamp/bootloader-build
 CMakeFiles/bootloader-complete: bootloader-prefix/src/bootloader-stamp/bootloader-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'bootloader'"
-	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles
-	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles/bootloader-complete
-	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'bootloader'"
+	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles
+	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles/bootloader-complete
+	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix/src/bootloader-stamp/bootloader-done
 
 bootloader-prefix/src/bootloader-stamp/bootloader-build: bootloader-prefix/src/bootloader-stamp/bootloader-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'bootloader'"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'bootloader'"
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader && $(MAKE)
 
 bootloader-prefix/src/bootloader-stamp/bootloader-configure: bootloader-prefix/tmp/bootloader-cfgcmd.txt
 bootloader-prefix/src/bootloader-stamp/bootloader-configure: bootloader-prefix/src/bootloader-stamp/bootloader-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'bootloader'"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader && /Applications/CMake.app/Contents/bin/cmake -DSDKCONFIG=/Users/eabaca/esp/esp-idf/examples/get-started/blink/sdkconfig -DIDF_PATH=/Users/eabaca/esp/esp-idf -DIDF_TARGET=esp32 -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python -DEXTRA_COMPONENT_DIRS=/Users/eabaca/esp/esp-idf/components/bootloader -DPROJECT_SOURCE_DIR=/Users/eabaca/esp/esp-idf/examples/get-started/blink -DLEGACY_INCLUDE_COMMON_HEADERS= "-GUnix Makefiles" /Users/eabaca/esp/esp-idf/components/bootloader/subproject
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'bootloader'"
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader && /Applications/CMake.app/Contents/bin/cmake -DSDKCONFIG=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/sdkconfig -DIDF_PATH=/Users/eabaca/esp/esp-idf -DIDF_TARGET=esp32 -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python -DEXTRA_COMPONENT_DIRS=/Users/eabaca/esp/esp-idf/components/bootloader -DPROJECT_SOURCE_DIR=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup -DLEGACY_INCLUDE_COMMON_HEADERS= "-GUnix Makefiles" /Users/eabaca/esp/esp-idf/components/bootloader/subproject
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure
 
 bootloader-prefix/src/bootloader-stamp/bootloader-download: bootloader-prefix/src/bootloader-stamp/bootloader-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'bootloader'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'bootloader'"
 	/Applications/CMake.app/Contents/bin/cmake -E echo_append
-	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-download
+	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix/src/bootloader-stamp/bootloader-download
 
 bootloader-prefix/src/bootloader-stamp/bootloader-install: bootloader-prefix/src/bootloader-stamp/bootloader-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'bootloader'"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader && /Applications/CMake.app/Contents/bin/cmake -E echo_append
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'bootloader'"
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader && /Applications/CMake.app/Contents/bin/cmake -E echo_append
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix/src/bootloader-stamp/bootloader-install
 
 bootloader-prefix/src/bootloader-stamp/bootloader-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'bootloader'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'bootloader'"
 	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/eabaca/esp/esp-idf/components/bootloader/subproject
-	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader
-	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix
-	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix/tmp
-	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix/src/bootloader-stamp
-	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix/src
-	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix/src/bootloader-stamp
-	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir
+	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader
+	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix
+	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix/tmp
+	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix/src/bootloader-stamp
+	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix/src
+	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix/src/bootloader-stamp
+	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir
 
 bootloader-prefix/src/bootloader-stamp/bootloader-patch: bootloader-prefix/src/bootloader-stamp/bootloader-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'bootloader'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'bootloader'"
 	/Applications/CMake.app/Contents/bin/cmake -E echo_append
-	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch
+	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch
 
 bootloader-prefix/src/bootloader-stamp/bootloader-update: bootloader-prefix/src/bootloader-stamp/bootloader-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'bootloader'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'bootloader'"
 	/Applications/CMake.app/Contents/bin/cmake -E echo_append
-	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-update
+	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix/src/bootloader-stamp/bootloader-update
 
 bootloader: CMakeFiles/bootloader
 bootloader: CMakeFiles/bootloader-complete
@@ -143,6 +143,6 @@ CMakeFiles/bootloader.dir/clean:
 .PHONY : CMakeFiles/bootloader.dir/clean
 
 CMakeFiles/bootloader.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/get-started/blink /Users/eabaca/esp/esp-idf/examples/get-started/blink /Users/eabaca/esp/esp-idf/examples/get-started/blink/build /Users/eabaca/esp/esp-idf/examples/get-started/blink/build /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles/bootloader.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles/bootloader.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bootloader.dir/depend
 

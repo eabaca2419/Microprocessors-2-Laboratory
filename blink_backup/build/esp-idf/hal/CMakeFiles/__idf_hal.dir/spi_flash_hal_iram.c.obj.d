@@ -1,6 +1,6 @@
 esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_iram.c.obj: \
  /Users/eabaca/esp/esp-idf/components/hal/spi_flash_hal_iram.c \
- /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/hal/include/hal/spi_flash_hal.h \
  /Users/eabaca/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h \

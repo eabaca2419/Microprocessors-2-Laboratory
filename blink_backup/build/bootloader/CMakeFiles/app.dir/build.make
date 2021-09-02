@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader
 
 # Utility rule file for app.
 
@@ -81,6 +81,6 @@ CMakeFiles/app.dir/clean:
 .PHONY : CMakeFiles/app.dir/clean
 
 CMakeFiles/app.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader/CMakeFiles/app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader/CMakeFiles/app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/app.dir/depend
 

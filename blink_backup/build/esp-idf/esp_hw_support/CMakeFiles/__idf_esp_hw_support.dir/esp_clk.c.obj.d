@@ -24,7 +24,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_clk.c.obj: \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h \
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_attr.h \
- /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/rtc.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdbool.h \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc.h \

@@ -4,7 +4,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/sha_hal.c.obj: \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stddef.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdbool.h \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/soc/include/soc/lldesc.h \
  /Users/eabaca/esp/esp-idf/components/esp_rom/include/esp32/rom/lldesc.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h \

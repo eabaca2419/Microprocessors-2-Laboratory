@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/led_strip//CMakeFiles/progress.marks
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/led_strip/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles 0
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/led_strip//CMakeFiles/progress.marks
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/led_strip/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/led_strip/clean
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/led_strip/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/led_strip/preinstall
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/led_strip/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/led_strip/preinstall
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/led_strip/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/rule:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/rule
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/rule
 .PHONY : esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_led_strip: esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/rule
 
 # fast build rule for target.
 __idf_led_strip/fast:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/build.make esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/build
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/build.make esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/build
 .PHONY : __idf_led_strip/fast
 
 led_strip_rmt_ws2812.obj: led_strip_rmt_ws2812.c.obj
@@ -180,7 +180,7 @@ led_strip_rmt_ws2812.obj: led_strip_rmt_ws2812.c.obj
 
 # target to build an object file
 led_strip_rmt_ws2812.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/build.make esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/build.make esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.obj
 .PHONY : led_strip_rmt_ws2812.c.obj
 
 led_strip_rmt_ws2812.i: led_strip_rmt_ws2812.c.i
@@ -188,7 +188,7 @@ led_strip_rmt_ws2812.i: led_strip_rmt_ws2812.c.i
 
 # target to preprocess a source file
 led_strip_rmt_ws2812.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/build.make esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/build.make esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.i
 .PHONY : led_strip_rmt_ws2812.c.i
 
 led_strip_rmt_ws2812.s: led_strip_rmt_ws2812.c.s
@@ -196,7 +196,7 @@ led_strip_rmt_ws2812.s: led_strip_rmt_ws2812.c.s
 
 # target to generate assembly for a file
 led_strip_rmt_ws2812.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/build.make esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/build.make esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.s
 .PHONY : led_strip_rmt_ws2812.c.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

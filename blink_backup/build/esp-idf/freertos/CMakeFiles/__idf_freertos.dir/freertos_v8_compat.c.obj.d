@@ -11,7 +11,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/freertos_v8_compat.c.obj: \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h \
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_compiler.h \
  /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/FreeRTOSConfig.h \
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_config.h \
  /Users/eabaca/esp/esp-idf/components/xtensa/include/xtensa/hal.h \

@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/Users/eabaca/esp/esp-idf")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/eabaca/esp/esp-idf/examples/get-started/blink/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

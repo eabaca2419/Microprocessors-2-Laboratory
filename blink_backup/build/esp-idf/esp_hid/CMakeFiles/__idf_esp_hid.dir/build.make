@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build
 
 # Include any dependencies generated for this target.
 include esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/depend.make
@@ -70,46 +70,46 @@ include esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/progress.make
 include esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/flags.make
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/flags.make
-esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj: ../../../../components/esp_hid/src/esp_hidd.c
+esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj: ../../../../../components/esp_hid/src/esp_hidd.c
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_hid && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj -MF CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj.d -o CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj -c /Users/eabaca/esp/esp-idf/components/esp_hid/src/esp_hidd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj"
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_hid && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj -MF CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj.d -o CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj -c /Users/eabaca/esp/esp-idf/components/esp_hid/src/esp_hidd.c
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.i"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_hid && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/components/esp_hid/src/esp_hidd.c > CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_hid && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/components/esp_hid/src/esp_hidd.c > CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.i
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.s"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_hid && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/components/esp_hid/src/esp_hidd.c -o CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_hid && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/components/esp_hid/src/esp_hidd.c -o CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.s
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/flags.make
-esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj: ../../../../components/esp_hid/src/esp_hidh.c
+esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj: ../../../../../components/esp_hid/src/esp_hidh.c
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_hid && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj -MF CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj.d -o CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj -c /Users/eabaca/esp/esp-idf/components/esp_hid/src/esp_hidh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj"
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_hid && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj -MF CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj.d -o CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj -c /Users/eabaca/esp/esp-idf/components/esp_hid/src/esp_hidh.c
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.i"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_hid && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/components/esp_hid/src/esp_hidh.c > CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_hid && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/components/esp_hid/src/esp_hidh.c > CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.i
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.s"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_hid && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/components/esp_hid/src/esp_hidh.c -o CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_hid && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/components/esp_hid/src/esp_hidh.c -o CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.s
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/flags.make
-esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj: ../../../../components/esp_hid/src/esp_hid_common.c
+esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj: ../../../../../components/esp_hid/src/esp_hid_common.c
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_hid && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj -MF CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj.d -o CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj -c /Users/eabaca/esp/esp-idf/components/esp_hid/src/esp_hid_common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj"
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_hid && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj -MF CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj.d -o CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj -c /Users/eabaca/esp/esp-idf/components/esp_hid/src/esp_hid_common.c
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.i"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_hid && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/components/esp_hid/src/esp_hid_common.c > CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_hid && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/components/esp_hid/src/esp_hid_common.c > CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.i
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.s"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_hid && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/components/esp_hid/src/esp_hid_common.c -o CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_hid && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/components/esp_hid/src/esp_hid_common.c -o CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.s
 
 # Object files for target __idf_esp_hid
 __idf_esp_hid_OBJECTS = \
@@ -125,19 +125,19 @@ esp-idf/esp_hid/libesp_hid.a: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/e
 esp-idf/esp_hid/libesp_hid.a: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj
 esp-idf/esp_hid/libesp_hid.a: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make
 esp-idf/esp_hid/libesp_hid.a: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libesp_hid.a"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_hid && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hid.dir/cmake_clean_target.cmake
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_hid && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_hid.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libesp_hid.a"
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_hid && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hid.dir/cmake_clean_target.cmake
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_hid && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_hid.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build: esp-idf/esp_hid/libesp_hid.a
 .PHONY : esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/clean:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_hid && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hid.dir/cmake_clean.cmake
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_hid && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hid.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/clean
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/get-started/blink /Users/eabaca/esp/esp-idf/components/esp_hid /Users/eabaca/esp/esp-idf/examples/get-started/blink/build /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_hid /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup /Users/eabaca/esp/esp-idf/components/esp_hid /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_hid /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/depend
 

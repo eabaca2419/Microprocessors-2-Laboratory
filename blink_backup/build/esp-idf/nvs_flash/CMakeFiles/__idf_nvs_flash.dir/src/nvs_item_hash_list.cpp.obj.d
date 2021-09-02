@@ -12,7 +12,7 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_item_hash_list.cpp.obj:
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stddef.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdbool.h \
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_attr.h \
- /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_err.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdio.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h \

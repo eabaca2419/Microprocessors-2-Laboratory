@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/libsodium//CMakeFiles/progress.marks
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/libsodium/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles 0
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/libsodium//CMakeFiles/progress.marks
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/libsodium/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/libsodium/clean
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/libsodium/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/libsodium/preinstall
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/libsodium/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/libsodium/preinstall
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/libsodium/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/rule:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/rule
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/rule
 .PHONY : esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_libsodium: esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/rule
 
 # fast build rule for target.
 __idf_libsodium/fast:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build
 .PHONY : __idf_libsodium/fast
 
 libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.obj: libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c.obj
@@ -180,7 +180,7 @@ libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly130
 
 # target to build an object file
 libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c.obj
 .PHONY : libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c.obj
 
 libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.i: libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c.i
@@ -188,7 +188,7 @@ libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly130
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c.i
 .PHONY : libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c.i
 
 libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.s: libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c.s
@@ -196,7 +196,7 @@ libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly130
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c.s
 .PHONY : libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c.s
 
 libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.obj: libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c.obj
@@ -204,7 +204,7 @@ libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1
 
 # target to build an object file
 libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c.obj
 .PHONY : libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c.obj
 
 libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.i: libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c.i
@@ -212,7 +212,7 @@ libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c.i
 .PHONY : libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c.i
 
 libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.s: libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c.s
@@ -220,7 +220,7 @@ libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c.s
 .PHONY : libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c.s
 
 libsodium/src/libsodium/crypto_auth/crypto_auth.obj: libsodium/src/libsodium/crypto_auth/crypto_auth.c.obj
@@ -228,7 +228,7 @@ libsodium/src/libsodium/crypto_auth/crypto_auth.obj: libsodium/src/libsodium/cry
 
 # target to build an object file
 libsodium/src/libsodium/crypto_auth/crypto_auth.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/crypto_auth.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/crypto_auth.c.obj
 .PHONY : libsodium/src/libsodium/crypto_auth/crypto_auth.c.obj
 
 libsodium/src/libsodium/crypto_auth/crypto_auth.i: libsodium/src/libsodium/crypto_auth/crypto_auth.c.i
@@ -236,7 +236,7 @@ libsodium/src/libsodium/crypto_auth/crypto_auth.i: libsodium/src/libsodium/crypt
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_auth/crypto_auth.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/crypto_auth.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/crypto_auth.c.i
 .PHONY : libsodium/src/libsodium/crypto_auth/crypto_auth.c.i
 
 libsodium/src/libsodium/crypto_auth/crypto_auth.s: libsodium/src/libsodium/crypto_auth/crypto_auth.c.s
@@ -244,7 +244,7 @@ libsodium/src/libsodium/crypto_auth/crypto_auth.s: libsodium/src/libsodium/crypt
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_auth/crypto_auth.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/crypto_auth.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/crypto_auth.c.s
 .PHONY : libsodium/src/libsodium/crypto_auth/crypto_auth.c.s
 
 libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.obj: libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c.obj
@@ -252,7 +252,7 @@ libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.obj: libsodium/sr
 
 # target to build an object file
 libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c.obj
 .PHONY : libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c.obj
 
 libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.i: libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c.i
@@ -260,7 +260,7 @@ libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.i: libsodium/src/
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c.i
 .PHONY : libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c.i
 
 libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.s: libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c.s
@@ -268,7 +268,7 @@ libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.s: libsodium/src/
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c.s
 .PHONY : libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c.s
 
 libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.obj: libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c.obj
@@ -276,7 +276,7 @@ libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.obj: libsodium/sr
 
 # target to build an object file
 libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c.obj
 .PHONY : libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c.obj
 
 libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.i: libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c.i
@@ -284,7 +284,7 @@ libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.i: libsodium/src/
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c.i
 .PHONY : libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c.i
 
 libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.s: libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c.s
@@ -292,7 +292,7 @@ libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.s: libsodium/src/
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c.s
 .PHONY : libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c.s
 
 libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.obj: libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c.obj
@@ -300,7 +300,7 @@ libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.obj: libsod
 
 # target to build an object file
 libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c.obj
 .PHONY : libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c.obj
 
 libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.i: libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c.i
@@ -308,7 +308,7 @@ libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.i: libsodiu
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c.i
 .PHONY : libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c.i
 
 libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.s: libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c.s
@@ -316,7 +316,7 @@ libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.s: libsodiu
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c.s
 .PHONY : libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c.s
 
 libsodium/src/libsodium/crypto_box/crypto_box.obj: libsodium/src/libsodium/crypto_box/crypto_box.c.obj
@@ -324,7 +324,7 @@ libsodium/src/libsodium/crypto_box/crypto_box.obj: libsodium/src/libsodium/crypt
 
 # target to build an object file
 libsodium/src/libsodium/crypto_box/crypto_box.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/crypto_box.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/crypto_box.c.obj
 .PHONY : libsodium/src/libsodium/crypto_box/crypto_box.c.obj
 
 libsodium/src/libsodium/crypto_box/crypto_box.i: libsodium/src/libsodium/crypto_box/crypto_box.c.i
@@ -332,7 +332,7 @@ libsodium/src/libsodium/crypto_box/crypto_box.i: libsodium/src/libsodium/crypto_
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_box/crypto_box.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/crypto_box.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/crypto_box.c.i
 .PHONY : libsodium/src/libsodium/crypto_box/crypto_box.c.i
 
 libsodium/src/libsodium/crypto_box/crypto_box.s: libsodium/src/libsodium/crypto_box/crypto_box.c.s
@@ -340,7 +340,7 @@ libsodium/src/libsodium/crypto_box/crypto_box.s: libsodium/src/libsodium/crypto_
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_box/crypto_box.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/crypto_box.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/crypto_box.c.s
 .PHONY : libsodium/src/libsodium/crypto_box/crypto_box.c.s
 
 libsodium/src/libsodium/crypto_box/crypto_box_easy.obj: libsodium/src/libsodium/crypto_box/crypto_box_easy.c.obj
@@ -348,7 +348,7 @@ libsodium/src/libsodium/crypto_box/crypto_box_easy.obj: libsodium/src/libsodium/
 
 # target to build an object file
 libsodium/src/libsodium/crypto_box/crypto_box_easy.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/crypto_box_easy.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/crypto_box_easy.c.obj
 .PHONY : libsodium/src/libsodium/crypto_box/crypto_box_easy.c.obj
 
 libsodium/src/libsodium/crypto_box/crypto_box_easy.i: libsodium/src/libsodium/crypto_box/crypto_box_easy.c.i
@@ -356,7 +356,7 @@ libsodium/src/libsodium/crypto_box/crypto_box_easy.i: libsodium/src/libsodium/cr
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_box/crypto_box_easy.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/crypto_box_easy.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/crypto_box_easy.c.i
 .PHONY : libsodium/src/libsodium/crypto_box/crypto_box_easy.c.i
 
 libsodium/src/libsodium/crypto_box/crypto_box_easy.s: libsodium/src/libsodium/crypto_box/crypto_box_easy.c.s
@@ -364,7 +364,7 @@ libsodium/src/libsodium/crypto_box/crypto_box_easy.s: libsodium/src/libsodium/cr
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_box/crypto_box_easy.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/crypto_box_easy.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/crypto_box_easy.c.s
 .PHONY : libsodium/src/libsodium/crypto_box/crypto_box_easy.c.s
 
 libsodium/src/libsodium/crypto_box/crypto_box_seal.obj: libsodium/src/libsodium/crypto_box/crypto_box_seal.c.obj
@@ -372,7 +372,7 @@ libsodium/src/libsodium/crypto_box/crypto_box_seal.obj: libsodium/src/libsodium/
 
 # target to build an object file
 libsodium/src/libsodium/crypto_box/crypto_box_seal.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/crypto_box_seal.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/crypto_box_seal.c.obj
 .PHONY : libsodium/src/libsodium/crypto_box/crypto_box_seal.c.obj
 
 libsodium/src/libsodium/crypto_box/crypto_box_seal.i: libsodium/src/libsodium/crypto_box/crypto_box_seal.c.i
@@ -380,7 +380,7 @@ libsodium/src/libsodium/crypto_box/crypto_box_seal.i: libsodium/src/libsodium/cr
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_box/crypto_box_seal.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/crypto_box_seal.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/crypto_box_seal.c.i
 .PHONY : libsodium/src/libsodium/crypto_box/crypto_box_seal.c.i
 
 libsodium/src/libsodium/crypto_box/crypto_box_seal.s: libsodium/src/libsodium/crypto_box/crypto_box_seal.c.s
@@ -388,7 +388,7 @@ libsodium/src/libsodium/crypto_box/crypto_box_seal.s: libsodium/src/libsodium/cr
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_box/crypto_box_seal.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/crypto_box_seal.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/crypto_box_seal.c.s
 .PHONY : libsodium/src/libsodium/crypto_box/crypto_box_seal.c.s
 
 libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.obj: libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c.obj
@@ -396,7 +396,7 @@ libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xch
 
 # target to build an object file
 libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c.obj
 .PHONY : libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c.obj
 
 libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.i: libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c.i
@@ -404,7 +404,7 @@ libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xch
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c.i
 .PHONY : libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c.i
 
 libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.s: libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c.s
@@ -412,7 +412,7 @@ libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xch
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c.s
 .PHONY : libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c.s
 
 libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.obj: libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.c.obj
@@ -420,7 +420,7 @@ libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve255
 
 # target to build an object file
 libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.c.obj
 .PHONY : libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.c.obj
 
 libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.i: libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.c.i
@@ -428,7 +428,7 @@ libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve255
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.c.i
 .PHONY : libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.c.i
 
 libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.s: libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.c.s
@@ -436,7 +436,7 @@ libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve255
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.c.s
 .PHONY : libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.c.s
 
 libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.obj: libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c.obj
@@ -444,7 +444,7 @@ libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsal
 
 # target to build an object file
 libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c.obj
 .PHONY : libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c.obj
 
 libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.i: libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c.i
@@ -452,7 +452,7 @@ libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsal
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c.i
 .PHONY : libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c.i
 
 libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.s: libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c.s
@@ -460,7 +460,7 @@ libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsal
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c.s
 .PHONY : libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c.s
 
 libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.obj: libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.c.obj
@@ -468,7 +468,7 @@ libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.obj: libsodium/src/libs
 
 # target to build an object file
 libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.c.obj
 .PHONY : libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.c.obj
 
 libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.i: libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.c.i
@@ -476,7 +476,7 @@ libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.i: libsodium/src/libsod
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.c.i
 .PHONY : libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.c.i
 
 libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.s: libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.c.s
@@ -484,7 +484,7 @@ libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.s: libsodium/src/libsod
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.c.s
 .PHONY : libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.c.s
 
 libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.obj: libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.c.obj
@@ -492,7 +492,7 @@ libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.obj: libsodium/src
 
 # target to build an object file
 libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.c.obj
 .PHONY : libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.c.obj
 
 libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.i: libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.c.i
@@ -500,7 +500,7 @@ libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.i: libsodium/src/l
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.c.i
 .PHONY : libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.c.i
 
 libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.s: libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.c.s
@@ -508,7 +508,7 @@ libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.s: libsodium/src/l
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.c.s
 .PHONY : libsodium/src/libsodium/crypto_core/ed25519/core_ristretto255.c.s
 
 libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.obj: libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.c.obj
@@ -516,7 +516,7 @@ libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.obj: libsodium/s
 
 # target to build an object file
 libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.c.obj
 .PHONY : libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.c.obj
 
 libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.i: libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.c.i
@@ -524,7 +524,7 @@ libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.i: libsodium/src
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.c.i
 .PHONY : libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.c.i
 
 libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.s: libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.c.s
@@ -532,7 +532,7 @@ libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.s: libsodium/src
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.c.s
 .PHONY : libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.c.s
 
 libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.obj: libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.c.obj
@@ -540,7 +540,7 @@ libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.obj: libsodium/src/
 
 # target to build an object file
 libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.c.obj
 .PHONY : libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.c.obj
 
 libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.i: libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.c.i
@@ -548,7 +548,7 @@ libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.i: libsodium/src/li
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.c.i
 .PHONY : libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.c.i
 
 libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.s: libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.c.s
@@ -556,7 +556,7 @@ libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.s: libsodium/src/li
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.c.s
 .PHONY : libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.c.s
 
 libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.obj: libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c.obj
@@ -564,7 +564,7 @@ libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.obj: libsodium/src/li
 
 # target to build an object file
 libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c.obj
 .PHONY : libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c.obj
 
 libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.i: libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c.i
@@ -572,7 +572,7 @@ libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.i: libsodium/src/libs
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c.i
 .PHONY : libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c.i
 
 libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.s: libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c.s
@@ -580,7 +580,7 @@ libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.s: libsodium/src/libs
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c.s
 .PHONY : libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c.s
 
 libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.obj: libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c.obj
@@ -588,7 +588,7 @@ libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.obj: libsod
 
 # target to build an object file
 libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c.obj
 .PHONY : libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c.obj
 
 libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.i: libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c.i
@@ -596,7 +596,7 @@ libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.i: libsodiu
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c.i
 .PHONY : libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c.i
 
 libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.s: libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c.s
@@ -604,7 +604,7 @@ libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.s: libsodiu
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c.s
 .PHONY : libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c.s
 
 libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.obj: libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c.obj
@@ -612,7 +612,7 @@ libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.obj: libsodium/src/
 
 # target to build an object file
 libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c.obj
 .PHONY : libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c.obj
 
 libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.i: libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c.i
@@ -620,7 +620,7 @@ libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.i: libsodium/src/li
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c.i
 .PHONY : libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c.i
 
 libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.s: libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c.s
@@ -628,7 +628,7 @@ libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.s: libsodium/src/li
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c.s
 .PHONY : libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c.s
 
 libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.obj: libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c.obj
@@ -636,7 +636,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.obj: libso
 
 # target to build an object file
 libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c.obj
 .PHONY : libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c.obj
 
 libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.i: libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c.i
@@ -644,7 +644,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.i: libsodi
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c.i
 .PHONY : libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c.i
 
 libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.s: libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c.s
@@ -652,7 +652,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.s: libsodi
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c.s
 .PHONY : libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c.s
 
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.obj: libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c.obj
@@ -660,7 +660,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.obj
 
 # target to build an object file
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c.obj
 .PHONY : libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c.obj
 
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.i: libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c.i
@@ -668,7 +668,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.i: 
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c.i
 .PHONY : libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c.i
 
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.s: libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c.s
@@ -676,7 +676,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.s: 
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c.s
 .PHONY : libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c.s
 
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.obj: libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c.obj
@@ -684,7 +684,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.obj:
 
 # target to build an object file
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c.obj
 .PHONY : libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c.obj
 
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.i: libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c.i
@@ -692,7 +692,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.i: l
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c.i
 .PHONY : libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c.i
 
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.s: libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c.s
@@ -700,7 +700,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.s: l
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c.s
 .PHONY : libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c.s
 
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.obj: libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c.obj
@@ -708,7 +708,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.ob
 
 # target to build an object file
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c.obj
 .PHONY : libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c.obj
 
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.i: libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c.i
@@ -716,7 +716,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.i:
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c.i
 .PHONY : libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c.i
 
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.s: libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c.s
@@ -724,7 +724,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.s:
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c.s
 .PHONY : libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c.s
 
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.obj: libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c.obj
@@ -732,7 +732,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.obj: libsodiu
 
 # target to build an object file
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c.obj
 .PHONY : libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c.obj
 
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.i: libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c.i
@@ -740,7 +740,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.i: libsodium/
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c.i
 .PHONY : libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c.i
 
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.s: libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c.s
@@ -748,7 +748,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.s: libsodium/
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c.s
 .PHONY : libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c.s
 
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.obj: libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c.obj
@@ -756,7 +756,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.obj: 
 
 # target to build an object file
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c.obj
 .PHONY : libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c.obj
 
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.i: libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c.i
@@ -764,7 +764,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.i: li
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c.i
 .PHONY : libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c.i
 
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.s: libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c.s
@@ -772,7 +772,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.s: li
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c.s
 .PHONY : libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c.s
 
 libsodium/src/libsodium/crypto_generichash/crypto_generichash.obj: libsodium/src/libsodium/crypto_generichash/crypto_generichash.c.obj
@@ -780,7 +780,7 @@ libsodium/src/libsodium/crypto_generichash/crypto_generichash.obj: libsodium/src
 
 # target to build an object file
 libsodium/src/libsodium/crypto_generichash/crypto_generichash.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/crypto_generichash.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/crypto_generichash.c.obj
 .PHONY : libsodium/src/libsodium/crypto_generichash/crypto_generichash.c.obj
 
 libsodium/src/libsodium/crypto_generichash/crypto_generichash.i: libsodium/src/libsodium/crypto_generichash/crypto_generichash.c.i
@@ -788,7 +788,7 @@ libsodium/src/libsodium/crypto_generichash/crypto_generichash.i: libsodium/src/l
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_generichash/crypto_generichash.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/crypto_generichash.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/crypto_generichash.c.i
 .PHONY : libsodium/src/libsodium/crypto_generichash/crypto_generichash.c.i
 
 libsodium/src/libsodium/crypto_generichash/crypto_generichash.s: libsodium/src/libsodium/crypto_generichash/crypto_generichash.c.s
@@ -796,7 +796,7 @@ libsodium/src/libsodium/crypto_generichash/crypto_generichash.s: libsodium/src/l
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_generichash/crypto_generichash.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/crypto_generichash.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_generichash/crypto_generichash.c.s
 .PHONY : libsodium/src/libsodium/crypto_generichash/crypto_generichash.c.s
 
 libsodium/src/libsodium/crypto_hash/crypto_hash.obj: libsodium/src/libsodium/crypto_hash/crypto_hash.c.obj
@@ -804,7 +804,7 @@ libsodium/src/libsodium/crypto_hash/crypto_hash.obj: libsodium/src/libsodium/cry
 
 # target to build an object file
 libsodium/src/libsodium/crypto_hash/crypto_hash.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/crypto_hash.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/crypto_hash.c.obj
 .PHONY : libsodium/src/libsodium/crypto_hash/crypto_hash.c.obj
 
 libsodium/src/libsodium/crypto_hash/crypto_hash.i: libsodium/src/libsodium/crypto_hash/crypto_hash.c.i
@@ -812,7 +812,7 @@ libsodium/src/libsodium/crypto_hash/crypto_hash.i: libsodium/src/libsodium/crypt
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_hash/crypto_hash.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/crypto_hash.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/crypto_hash.c.i
 .PHONY : libsodium/src/libsodium/crypto_hash/crypto_hash.c.i
 
 libsodium/src/libsodium/crypto_hash/crypto_hash.s: libsodium/src/libsodium/crypto_hash/crypto_hash.c.s
@@ -820,7 +820,7 @@ libsodium/src/libsodium/crypto_hash/crypto_hash.s: libsodium/src/libsodium/crypt
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_hash/crypto_hash.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/crypto_hash.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/crypto_hash.c.s
 .PHONY : libsodium/src/libsodium/crypto_hash/crypto_hash.c.s
 
 libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.obj: libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c.obj
@@ -828,7 +828,7 @@ libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.obj: libsodium/src/
 
 # target to build an object file
 libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c.obj
 .PHONY : libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c.obj
 
 libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.i: libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c.i
@@ -836,7 +836,7 @@ libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.i: libsodium/src/li
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c.i
 .PHONY : libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c.i
 
 libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.s: libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c.s
@@ -844,7 +844,7 @@ libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.s: libsodium/src/li
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c.s
 .PHONY : libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c.s
 
 libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.obj: libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.c.obj
@@ -852,7 +852,7 @@ libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.obj: libsodium/src/libsod
 
 # target to build an object file
 libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.c.obj
 .PHONY : libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.c.obj
 
 libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.i: libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.c.i
@@ -860,7 +860,7 @@ libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.i: libsodium/src/libsodiu
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.c.i
 .PHONY : libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.c.i
 
 libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.s: libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.c.s
@@ -868,7 +868,7 @@ libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.s: libsodium/src/libsodiu
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.c.s
 .PHONY : libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.c.s
 
 libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.obj: libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c.obj
@@ -876,7 +876,7 @@ libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.obj: libsodium/src/
 
 # target to build an object file
 libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c.obj
 .PHONY : libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c.obj
 
 libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.i: libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c.i
@@ -884,7 +884,7 @@ libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.i: libsodium/src/li
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c.i
 .PHONY : libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c.i
 
 libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.s: libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c.s
@@ -892,7 +892,7 @@ libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.s: libsodium/src/li
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c.s
 .PHONY : libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c.s
 
 libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.obj: libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.c.obj
@@ -900,7 +900,7 @@ libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.obj: libsodium/src/libsod
 
 # target to build an object file
 libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.c.obj
 .PHONY : libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.c.obj
 
 libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.i: libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.c.i
@@ -908,7 +908,7 @@ libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.i: libsodium/src/libsodiu
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.c.i
 .PHONY : libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.c.i
 
 libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.s: libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.c.s
@@ -916,7 +916,7 @@ libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.s: libsodium/src/libsodiu
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.c.s
 .PHONY : libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.c.s
 
 libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.obj: libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c.obj
@@ -924,7 +924,7 @@ libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.obj: libsodium/src/libsod
 
 # target to build an object file
 libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c.obj
 .PHONY : libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c.obj
 
 libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.i: libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c.i
@@ -932,7 +932,7 @@ libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.i: libsodium/src/libsodiu
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c.i
 .PHONY : libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c.i
 
 libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.s: libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c.s
@@ -940,7 +940,7 @@ libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.s: libsodium/src/libsodiu
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c.s
 .PHONY : libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c.s
 
 libsodium/src/libsodium/crypto_kdf/crypto_kdf.obj: libsodium/src/libsodium/crypto_kdf/crypto_kdf.c.obj
@@ -948,7 +948,7 @@ libsodium/src/libsodium/crypto_kdf/crypto_kdf.obj: libsodium/src/libsodium/crypt
 
 # target to build an object file
 libsodium/src/libsodium/crypto_kdf/crypto_kdf.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_kdf/crypto_kdf.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_kdf/crypto_kdf.c.obj
 .PHONY : libsodium/src/libsodium/crypto_kdf/crypto_kdf.c.obj
 
 libsodium/src/libsodium/crypto_kdf/crypto_kdf.i: libsodium/src/libsodium/crypto_kdf/crypto_kdf.c.i
@@ -956,7 +956,7 @@ libsodium/src/libsodium/crypto_kdf/crypto_kdf.i: libsodium/src/libsodium/crypto_
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_kdf/crypto_kdf.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_kdf/crypto_kdf.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_kdf/crypto_kdf.c.i
 .PHONY : libsodium/src/libsodium/crypto_kdf/crypto_kdf.c.i
 
 libsodium/src/libsodium/crypto_kdf/crypto_kdf.s: libsodium/src/libsodium/crypto_kdf/crypto_kdf.c.s
@@ -964,7 +964,7 @@ libsodium/src/libsodium/crypto_kdf/crypto_kdf.s: libsodium/src/libsodium/crypto_
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_kdf/crypto_kdf.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_kdf/crypto_kdf.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_kdf/crypto_kdf.c.s
 .PHONY : libsodium/src/libsodium/crypto_kdf/crypto_kdf.c.s
 
 libsodium/src/libsodium/crypto_kx/crypto_kx.obj: libsodium/src/libsodium/crypto_kx/crypto_kx.c.obj
@@ -972,7 +972,7 @@ libsodium/src/libsodium/crypto_kx/crypto_kx.obj: libsodium/src/libsodium/crypto_
 
 # target to build an object file
 libsodium/src/libsodium/crypto_kx/crypto_kx.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_kx/crypto_kx.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_kx/crypto_kx.c.obj
 .PHONY : libsodium/src/libsodium/crypto_kx/crypto_kx.c.obj
 
 libsodium/src/libsodium/crypto_kx/crypto_kx.i: libsodium/src/libsodium/crypto_kx/crypto_kx.c.i
@@ -980,7 +980,7 @@ libsodium/src/libsodium/crypto_kx/crypto_kx.i: libsodium/src/libsodium/crypto_kx
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_kx/crypto_kx.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_kx/crypto_kx.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_kx/crypto_kx.c.i
 .PHONY : libsodium/src/libsodium/crypto_kx/crypto_kx.c.i
 
 libsodium/src/libsodium/crypto_kx/crypto_kx.s: libsodium/src/libsodium/crypto_kx/crypto_kx.c.s
@@ -988,7 +988,7 @@ libsodium/src/libsodium/crypto_kx/crypto_kx.s: libsodium/src/libsodium/crypto_kx
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_kx/crypto_kx.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_kx/crypto_kx.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_kx/crypto_kx.c.s
 .PHONY : libsodium/src/libsodium/crypto_kx/crypto_kx.c.s
 
 libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.obj: libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c.obj
@@ -996,7 +996,7 @@ libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.obj: libsodium/src
 
 # target to build an object file
 libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c.obj
 .PHONY : libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c.obj
 
 libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.i: libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c.i
@@ -1004,7 +1004,7 @@ libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.i: libsodium/src/l
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c.i
 .PHONY : libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c.i
 
 libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.s: libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c.s
@@ -1012,7 +1012,7 @@ libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.s: libsodium/src/l
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c.s
 .PHONY : libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c.s
 
 libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.obj: libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c.obj
@@ -1020,7 +1020,7 @@ libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.obj: li
 
 # target to build an object file
 libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c.obj
 .PHONY : libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c.obj
 
 libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.i: libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c.i
@@ -1028,7 +1028,7 @@ libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.i: libs
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c.i
 .PHONY : libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c.i
 
 libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.s: libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c.s
@@ -1036,7 +1036,7 @@ libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.s: libs
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c.s
 .PHONY : libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c.s
 
 libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.obj: libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c.obj
@@ -1044,7 +1044,7 @@ libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.obj: li
 
 # target to build an object file
 libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c.obj
 .PHONY : libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c.obj
 
 libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.i: libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c.i
@@ -1052,7 +1052,7 @@ libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.i: libs
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c.i
 .PHONY : libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c.i
 
 libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.s: libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c.s
@@ -1060,7 +1060,7 @@ libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.s: libs
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c.s
 .PHONY : libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c.s
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.obj: libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c.obj
@@ -1068,7 +1068,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.obj: libsodium/src/libs
 
 # target to build an object file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c.obj
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c.obj
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.i: libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c.i
@@ -1076,7 +1076,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.i: libsodium/src/libsod
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c.i
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c.i
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.s: libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c.s
@@ -1084,7 +1084,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.s: libsodium/src/libsod
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c.s
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c.s
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.obj: libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c.obj
@@ -1092,7 +1092,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.obj: libsodium/src/
 
 # target to build an object file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c.obj
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c.obj
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.i: libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c.i
@@ -1100,7 +1100,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.i: libsodium/src/li
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c.i
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c.i
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.s: libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c.s
@@ -1108,7 +1108,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.s: libsodium/src/li
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c.s
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c.s
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.obj: libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.c.obj
@@ -1116,7 +1116,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.obj: libsodi
 
 # target to build an object file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.c.obj
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.c.obj
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.i: libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.c.i
@@ -1124,7 +1124,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.i: libsodium
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.c.i
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.c.i
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.s: libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.c.s
@@ -1132,7 +1132,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.s: libsodium
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.c.s
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.c.s
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.obj: libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.c.obj
@@ -1140,7 +1140,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.obj: libs
 
 # target to build an object file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.c.obj
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.c.obj
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.i: libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.c.i
@@ -1148,7 +1148,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.i: libsod
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.c.i
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.c.i
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.s: libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.c.s
@@ -1156,7 +1156,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.s: libsod
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.c.s
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.c.s
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.obj: libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c.obj
@@ -1164,7 +1164,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.obj: libsodiu
 
 # target to build an object file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c.obj
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c.obj
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.i: libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c.i
@@ -1172,7 +1172,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.i: libsodium/
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c.i
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c.i
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.s: libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c.s
@@ -1180,7 +1180,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.s: libsodium/
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c.s
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c.s
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.obj: libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c.obj
@@ -1188,7 +1188,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.obj: libsod
 
 # target to build an object file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c.obj
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c.obj
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.i: libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c.i
@@ -1196,7 +1196,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.i: libsodiu
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c.i
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c.i
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.s: libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c.s
@@ -1204,7 +1204,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.s: libsodiu
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c.s
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c.s
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2.obj: libsodium/src/libsodium/crypto_pwhash/argon2/argon2.c.obj
@@ -1212,7 +1212,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2.obj: libsodium/src/libsodium
 
 # target to build an object file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2.c.obj
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2.c.obj
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2.i: libsodium/src/libsodium/crypto_pwhash/argon2/argon2.c.i
@@ -1220,7 +1220,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2.i: libsodium/src/libsodium/c
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2.c.i
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2.c.i
 
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2.s: libsodium/src/libsodium/crypto_pwhash/argon2/argon2.c.s
@@ -1228,7 +1228,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2.s: libsodium/src/libsodium/c
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/argon2.c.s
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/argon2.c.s
 
 libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.obj: libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.c.obj
@@ -1236,7 +1236,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.obj: libsodium/src/lib
 
 # target to build an object file
 libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.c.obj
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.c.obj
 
 libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.i: libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.c.i
@@ -1244,7 +1244,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.i: libsodium/src/libso
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.c.i
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.c.i
 
 libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.s: libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.c.s
@@ -1252,7 +1252,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.s: libsodium/src/libso
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.c.s
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.c.s
 
 libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.obj: libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c.obj
@@ -1260,7 +1260,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.obj: libsodium/src/l
 
 # target to build an object file
 libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c.obj
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c.obj
 
 libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.i: libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c.i
@@ -1268,7 +1268,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.i: libsodium/src/lib
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c.i
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c.i
 
 libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.s: libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c.s
@@ -1276,7 +1276,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.s: libsodium/src/lib
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c.s
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c.s
 
 libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.obj: libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.c.obj
@@ -1284,7 +1284,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.obj: libsodium/src/
 
 # target to build an object file
 libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.c.obj
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.c.obj
 
 libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.i: libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.c.i
@@ -1292,7 +1292,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.i: libsodium/src/li
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.c.i
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.c.i
 
 libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.s: libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.c.s
@@ -1300,7 +1300,7 @@ libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.s: libsodium/src/li
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.c.s
 .PHONY : libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.c.s
 
 libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.obj: libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.c.obj
@@ -1308,7 +1308,7 @@ libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.obj: libsodium/src/libsodium
 
 # target to build an object file
 libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.c.obj
 .PHONY : libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.c.obj
 
 libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.i: libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.c.i
@@ -1316,7 +1316,7 @@ libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.i: libsodium/src/libsodium/c
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.c.i
 .PHONY : libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.c.i
 
 libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.s: libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.c.s
@@ -1324,7 +1324,7 @@ libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.s: libsodium/src/libsodium/c
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.c.s
 .PHONY : libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.c.s
 
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.obj: libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c.obj
@@ -1332,7 +1332,7 @@ libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.
 
 # target to build an object file
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c.obj
 .PHONY : libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c.obj
 
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.i: libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c.i
@@ -1340,7 +1340,7 @@ libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c.i
 .PHONY : libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c.i
 
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.s: libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c.s
@@ -1348,7 +1348,7 @@ libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c.s
 .PHONY : libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c.s
 
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.obj: libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c.obj
@@ -1356,7 +1356,7 @@ libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsa
 
 # target to build an object file
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c.obj
 .PHONY : libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c.obj
 
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.i: libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c.i
@@ -1364,7 +1364,7 @@ libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsa
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c.i
 .PHONY : libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c.i
 
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.s: libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c.s
@@ -1372,7 +1372,7 @@ libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsa
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c.s
 .PHONY : libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c.s
 
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.obj: libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c.obj
@@ -1380,7 +1380,7 @@ libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.obj: li
 
 # target to build an object file
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c.obj
 .PHONY : libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c.obj
 
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.i: libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c.i
@@ -1388,7 +1388,7 @@ libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.i: libs
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c.i
 .PHONY : libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c.i
 
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.s: libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c.s
@@ -1396,7 +1396,7 @@ libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.s: libs
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c.s
 .PHONY : libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c.s
 
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.obj: libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c.obj
@@ -1404,7 +1404,7 @@ libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208
 
 # target to build an object file
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c.obj
 .PHONY : libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c.obj
 
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.i: libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c.i
@@ -1412,7 +1412,7 @@ libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c.i
 .PHONY : libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c.i
 
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.s: libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c.s
@@ -1420,7 +1420,7 @@ libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c.s
 .PHONY : libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c.s
 
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.obj: libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c.obj
@@ -1428,7 +1428,7 @@ libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.obj: 
 
 # target to build an object file
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c.obj
 .PHONY : libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c.obj
 
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.i: libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c.i
@@ -1436,7 +1436,7 @@ libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.i: li
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c.i
 .PHONY : libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c.i
 
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.s: libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c.s
@@ -1444,7 +1444,7 @@ libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.s: li
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c.s
 .PHONY : libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c.s
 
 libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.obj: libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.c.obj
@@ -1452,7 +1452,7 @@ libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.obj: libsodium/src/l
 
 # target to build an object file
 libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.c.obj
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.c.obj
 
 libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.i: libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.c.i
@@ -1460,7 +1460,7 @@ libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.i: libsodium/src/lib
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.c.i
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.c.i
 
 libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.s: libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.c.s
@@ -1468,7 +1468,7 @@ libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.s: libsodium/src/lib
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.c.s
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.c.s
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.obj: libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c.obj
@@ -1476,7 +1476,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.obj: lib
 
 # target to build an object file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c.obj
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c.obj
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.i: libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c.i
@@ -1484,7 +1484,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.i: libso
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c.i
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c.i
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.s: libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c.s
@@ -1492,7 +1492,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.s: libso
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c.s
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c.s
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/consts.obj: libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/consts.S.obj
@@ -1500,7 +1500,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/consts.obj: libsodi
 
 # target to build an object file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/consts.S.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/consts.S.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/consts.S.obj
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/consts.S.obj
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.obj: libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c.obj
@@ -1508,7 +1508,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.
 
 # target to build an object file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c.obj
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c.obj
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.i: libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c.i
@@ -1516,7 +1516,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c.i
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c.i
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.s: libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c.s
@@ -1524,7 +1524,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c.s
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c.s
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.obj: libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c.obj
@@ -1532,7 +1532,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.obj: li
 
 # target to build an object file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c.obj
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c.obj
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.i: libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c.i
@@ -1540,7 +1540,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.i: libs
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c.i
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c.i
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.s: libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c.s
@@ -1548,7 +1548,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.s: libs
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c.s
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c.s
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_mul.obj: libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_mul.S.obj
@@ -1556,7 +1556,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_mul.obj: libso
 
 # target to build an object file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_mul.S.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_mul.S.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_mul.S.obj
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_mul.S.obj
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_nsquare.obj: libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_nsquare.S.obj
@@ -1564,7 +1564,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_nsquare.obj: l
 
 # target to build an object file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_nsquare.S.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_nsquare.S.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_nsquare.S.obj
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_nsquare.S.obj
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_pack.obj: libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_pack.S.obj
@@ -1572,7 +1572,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_pack.obj: libs
 
 # target to build an object file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_pack.S.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_pack.S.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_pack.S.obj
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_pack.S.obj
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.obj: libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c.obj
@@ -1580,7 +1580,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2
 
 # target to build an object file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c.obj
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c.obj
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.i: libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c.i
@@ -1588,7 +1588,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c.i
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c.i
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.s: libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c.s
@@ -1596,7 +1596,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c.s
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c.s
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder.obj: libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder.S.obj
@@ -1604,7 +1604,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder.obj: libsodi
 
 # target to build an object file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder.S.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder.S.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder.S.obj
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder.S.obj
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/sandy2x.obj: libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/sandy2x.S.obj
@@ -1612,7 +1612,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/sandy2x.obj: libsod
 
 # target to build an object file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/sandy2x.S.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/sandy2x.S.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/sandy2x.S.obj
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/sandy2x.S.obj
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.obj: libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c.obj
@@ -1620,7 +1620,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.obj: 
 
 # target to build an object file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c.obj
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c.obj
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.i: libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c.i
@@ -1628,7 +1628,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.i: li
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c.i
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c.i
 
 libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.s: libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c.s
@@ -1636,7 +1636,7 @@ libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.s: li
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c.s
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c.s
 
 libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.obj: libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.c.obj
@@ -1644,7 +1644,7 @@ libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10
 
 # target to build an object file
 libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.c.obj
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.c.obj
 
 libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.i: libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.c.i
@@ -1652,7 +1652,7 @@ libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.c.i
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.c.i
 
 libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.s: libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.c.s
@@ -1660,7 +1660,7 @@ libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.c.s
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.c.s
 
 libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.obj: libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.c.obj
@@ -1668,7 +1668,7 @@ libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristrett
 
 # target to build an object file
 libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.c.obj
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.c.obj
 
 libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.i: libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.c.i
@@ -1676,7 +1676,7 @@ libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristrett
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.c.i
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.c.i
 
 libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.s: libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.c.s
@@ -1684,7 +1684,7 @@ libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristrett
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.c.s
 .PHONY : libsodium/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.c.s
 
 libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.obj: libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.c.obj
@@ -1692,7 +1692,7 @@ libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.obj: libsodium/src/lib
 
 # target to build an object file
 libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.c.obj
 .PHONY : libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.c.obj
 
 libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.i: libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.c.i
@@ -1700,7 +1700,7 @@ libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.i: libsodium/src/libso
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.c.i
 .PHONY : libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.c.i
 
 libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.s: libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.c.s
@@ -1708,7 +1708,7 @@ libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.s: libsodium/src/libso
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.c.s
 .PHONY : libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.c.s
 
 libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.obj: libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c.obj
@@ -1716,7 +1716,7 @@ libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.obj: libsodium/sr
 
 # target to build an object file
 libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c.obj
 .PHONY : libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c.obj
 
 libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.i: libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c.i
@@ -1724,7 +1724,7 @@ libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.i: libsodium/src/
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c.i
 .PHONY : libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c.i
 
 libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.s: libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c.s
@@ -1732,7 +1732,7 @@ libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.s: libsodium/src/
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c.s
 .PHONY : libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c.s
 
 libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.obj: libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c.obj
@@ -1740,7 +1740,7 @@ libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20po
 
 # target to build an object file
 libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c.obj
 .PHONY : libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c.obj
 
 libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.i: libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c.i
@@ -1748,7 +1748,7 @@ libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20po
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c.i
 .PHONY : libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c.i
 
 libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.s: libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c.s
@@ -1756,7 +1756,7 @@ libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20po
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c.s
 .PHONY : libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c.s
 
 libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.obj: libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c.obj
@@ -1764,7 +1764,7 @@ libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly
 
 # target to build an object file
 libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c.obj
 .PHONY : libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c.obj
 
 libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.i: libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c.i
@@ -1772,7 +1772,7 @@ libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c.i
 .PHONY : libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c.i
 
 libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.s: libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c.s
@@ -1780,7 +1780,7 @@ libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c.s
 .PHONY : libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c.s
 
 libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.obj: libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.c.obj
@@ -1788,7 +1788,7 @@ libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchac
 
 # target to build an object file
 libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.c.obj
 .PHONY : libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.c.obj
 
 libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.i: libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.c.i
@@ -1796,7 +1796,7 @@ libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchac
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.c.i
 .PHONY : libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.c.i
 
 libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.s: libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.c.s
@@ -1804,7 +1804,7 @@ libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchac
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.c.s
 .PHONY : libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.c.s
 
 libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.obj: libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.c.obj
@@ -1812,7 +1812,7 @@ libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.obj: libsodium/src/lib
 
 # target to build an object file
 libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.c.obj
 .PHONY : libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.c.obj
 
 libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.i: libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.c.i
@@ -1820,7 +1820,7 @@ libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.i: libsodium/src/libso
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.c.i
 .PHONY : libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.c.i
 
 libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.s: libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.c.s
@@ -1828,7 +1828,7 @@ libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.s: libsodium/src/libso
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.c.s
 .PHONY : libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.c.s
 
 libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.obj: libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c.obj
@@ -1836,7 +1836,7 @@ libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.o
 
 # target to build an object file
 libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c.obj
 .PHONY : libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c.obj
 
 libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.i: libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c.i
@@ -1844,7 +1844,7 @@ libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.i
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c.i
 .PHONY : libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c.i
 
 libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.s: libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c.s
@@ -1852,7 +1852,7 @@ libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.s
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c.s
 .PHONY : libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c.s
 
 libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.obj: libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c.obj
@@ -1860,7 +1860,7 @@ libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.
 
 # target to build an object file
 libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c.obj
 .PHONY : libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c.obj
 
 libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.i: libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c.i
@@ -1868,7 +1868,7 @@ libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c.i
 .PHONY : libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c.i
 
 libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.s: libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c.s
@@ -1876,7 +1876,7 @@ libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c.s
 .PHONY : libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c.s
 
 libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.obj: libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c.obj
@@ -1884,7 +1884,7 @@ libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.obj: libs
 
 # target to build an object file
 libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c.obj
 .PHONY : libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c.obj
 
 libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.i: libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c.i
@@ -1892,7 +1892,7 @@ libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.i: libsod
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c.i
 .PHONY : libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c.i
 
 libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.s: libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c.s
@@ -1900,7 +1900,7 @@ libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.s: libsod
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c.s
 .PHONY : libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c.s
 
 libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.obj: libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c.obj
@@ -1908,7 +1908,7 @@ libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.obj: lib
 
 # target to build an object file
 libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c.obj
 .PHONY : libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c.obj
 
 libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.i: libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c.i
@@ -1916,7 +1916,7 @@ libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.i: libso
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c.i
 .PHONY : libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c.i
 
 libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.s: libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c.s
@@ -1924,7 +1924,7 @@ libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.s: libso
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c.s
 .PHONY : libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c.s
 
 libsodium/src/libsodium/crypto_sign/crypto_sign.obj: libsodium/src/libsodium/crypto_sign/crypto_sign.c.obj
@@ -1932,7 +1932,7 @@ libsodium/src/libsodium/crypto_sign/crypto_sign.obj: libsodium/src/libsodium/cry
 
 # target to build an object file
 libsodium/src/libsodium/crypto_sign/crypto_sign.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/crypto_sign.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/crypto_sign.c.obj
 .PHONY : libsodium/src/libsodium/crypto_sign/crypto_sign.c.obj
 
 libsodium/src/libsodium/crypto_sign/crypto_sign.i: libsodium/src/libsodium/crypto_sign/crypto_sign.c.i
@@ -1940,7 +1940,7 @@ libsodium/src/libsodium/crypto_sign/crypto_sign.i: libsodium/src/libsodium/crypt
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_sign/crypto_sign.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/crypto_sign.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/crypto_sign.c.i
 .PHONY : libsodium/src/libsodium/crypto_sign/crypto_sign.c.i
 
 libsodium/src/libsodium/crypto_sign/crypto_sign.s: libsodium/src/libsodium/crypto_sign/crypto_sign.c.s
@@ -1948,7 +1948,7 @@ libsodium/src/libsodium/crypto_sign/crypto_sign.s: libsodium/src/libsodium/crypt
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_sign/crypto_sign.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/crypto_sign.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/crypto_sign.c.s
 .PHONY : libsodium/src/libsodium/crypto_sign/crypto_sign.c.s
 
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.obj: libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.c.obj
@@ -1956,7 +1956,7 @@ libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.obj: libsodium/src/lib
 
 # target to build an object file
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.c.obj
 .PHONY : libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.c.obj
 
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.i: libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.c.i
@@ -1964,7 +1964,7 @@ libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.i: libsodium/src/libso
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.c.i
 .PHONY : libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.c.i
 
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.s: libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.c.s
@@ -1972,7 +1972,7 @@ libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.s: libsodium/src/libso
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.c.s
 .PHONY : libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.c.s
 
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.obj: libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c.obj
@@ -1980,7 +1980,7 @@ libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.obj: libsodium/src/li
 
 # target to build an object file
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c.obj
 .PHONY : libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c.obj
 
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.i: libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c.i
@@ -1988,7 +1988,7 @@ libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.i: libsodium/src/libs
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c.i
 .PHONY : libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c.i
 
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.s: libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c.s
@@ -1996,7 +1996,7 @@ libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.s: libsodium/src/libs
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c.s
 .PHONY : libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c.s
 
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.obj: libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.c.obj
@@ -2004,7 +2004,7 @@ libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.obj: libsodium/src/libsod
 
 # target to build an object file
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.c.obj
 .PHONY : libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.c.obj
 
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.i: libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.c.i
@@ -2012,7 +2012,7 @@ libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.i: libsodium/src/libsodiu
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.c.i
 .PHONY : libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.c.i
 
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.s: libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.c.s
@@ -2020,7 +2020,7 @@ libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.s: libsodium/src/libsodiu
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.c.s
 .PHONY : libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.c.s
 
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.obj: libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.c.obj
@@ -2028,7 +2028,7 @@ libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.obj: libsodium/src/libsod
 
 # target to build an object file
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.c.obj
 .PHONY : libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.c.obj
 
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.i: libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.c.i
@@ -2036,7 +2036,7 @@ libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.i: libsodium/src/libsodiu
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.c.i
 .PHONY : libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.c.i
 
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.s: libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.c.s
@@ -2044,7 +2044,7 @@ libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.s: libsodium/src/libsodiu
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.c.s
 .PHONY : libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.c.s
 
 libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.obj: libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.c.obj
@@ -2052,7 +2052,7 @@ libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.obj: libsodium/src/libs
 
 # target to build an object file
 libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.c.obj
 .PHONY : libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.c.obj
 
 libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.i: libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.c.i
@@ -2060,7 +2060,7 @@ libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.i: libsodium/src/libsod
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.c.i
 .PHONY : libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.c.i
 
 libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.s: libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.c.s
@@ -2068,7 +2068,7 @@ libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.s: libsodium/src/libsod
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.c.s
 .PHONY : libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.c.s
 
 libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.obj: libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c.obj
@@ -2076,7 +2076,7 @@ libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.obj
 
 # target to build an object file
 libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c.obj
 .PHONY : libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c.obj
 
 libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.i: libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c.i
@@ -2084,7 +2084,7 @@ libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.i: 
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c.i
 .PHONY : libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c.i
 
 libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.s: libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c.s
@@ -2092,7 +2092,7 @@ libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.s: 
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c.s
 .PHONY : libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c.s
 
 libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.obj: libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c.obj
@@ -2100,7 +2100,7 @@ libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.ob
 
 # target to build an object file
 libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c.obj
 .PHONY : libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c.obj
 
 libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.i: libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c.i
@@ -2108,7 +2108,7 @@ libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.i:
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c.i
 .PHONY : libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c.i
 
 libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.s: libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c.s
@@ -2116,7 +2116,7 @@ libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.s:
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c.s
 .PHONY : libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c.s
 
 libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.obj: libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c.obj
@@ -2124,7 +2124,7 @@ libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.obj: libsodium/s
 
 # target to build an object file
 libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c.obj
 .PHONY : libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c.obj
 
 libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.i: libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c.i
@@ -2132,7 +2132,7 @@ libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.i: libsodium/src
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c.i
 .PHONY : libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c.i
 
 libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.s: libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c.s
@@ -2140,7 +2140,7 @@ libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.s: libsodium/src
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c.s
 .PHONY : libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c.s
 
 libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.obj: libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.c.obj
@@ -2148,7 +2148,7 @@ libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.obj: libsodium/sr
 
 # target to build an object file
 libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.c.obj
 .PHONY : libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.c.obj
 
 libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.i: libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.c.i
@@ -2156,7 +2156,7 @@ libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.i: libsodium/src/
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.c.i
 .PHONY : libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.c.i
 
 libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.s: libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.c.s
@@ -2164,7 +2164,7 @@ libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.s: libsodium/src/
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.c.s
 .PHONY : libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.c.s
 
 libsodium/src/libsodium/crypto_stream/crypto_stream.obj: libsodium/src/libsodium/crypto_stream/crypto_stream.c.obj
@@ -2172,7 +2172,7 @@ libsodium/src/libsodium/crypto_stream/crypto_stream.obj: libsodium/src/libsodium
 
 # target to build an object file
 libsodium/src/libsodium/crypto_stream/crypto_stream.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/crypto_stream.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/crypto_stream.c.obj
 .PHONY : libsodium/src/libsodium/crypto_stream/crypto_stream.c.obj
 
 libsodium/src/libsodium/crypto_stream/crypto_stream.i: libsodium/src/libsodium/crypto_stream/crypto_stream.c.i
@@ -2180,7 +2180,7 @@ libsodium/src/libsodium/crypto_stream/crypto_stream.i: libsodium/src/libsodium/c
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_stream/crypto_stream.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/crypto_stream.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/crypto_stream.c.i
 .PHONY : libsodium/src/libsodium/crypto_stream/crypto_stream.c.i
 
 libsodium/src/libsodium/crypto_stream/crypto_stream.s: libsodium/src/libsodium/crypto_stream/crypto_stream.c.s
@@ -2188,7 +2188,7 @@ libsodium/src/libsodium/crypto_stream/crypto_stream.s: libsodium/src/libsodium/c
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_stream/crypto_stream.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/crypto_stream.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/crypto_stream.c.s
 .PHONY : libsodium/src/libsodium/crypto_stream/crypto_stream.c.s
 
 libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.obj: libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c.obj
@@ -2196,7 +2196,7 @@ libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.obj: libsodium/src
 
 # target to build an object file
 libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c.obj
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c.obj
 
 libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.i: libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c.i
@@ -2204,7 +2204,7 @@ libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.i: libsodium/src/l
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c.i
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c.i
 
 libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.s: libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c.s
@@ -2212,7 +2212,7 @@ libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.s: libsodium/src/l
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c.s
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c.s
 
 libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.obj: libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.c.obj
@@ -2220,7 +2220,7 @@ libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.obj: libsodium/src/
 
 # target to build an object file
 libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.c.obj
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.c.obj
 
 libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.i: libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.c.i
@@ -2228,7 +2228,7 @@ libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.i: libsodium/src/li
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.c.i
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.c.i
 
 libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.s: libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.c.s
@@ -2236,7 +2236,7 @@ libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.s: libsodium/src/li
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.c.s
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.c.s
 
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6-asm.obj: libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6-asm.S.obj
@@ -2244,7 +2244,7 @@ libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6-asm.obj: libsodi
 
 # target to build an object file
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6-asm.S.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6-asm.S.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6-asm.S.obj
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6-asm.S.obj
 
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.obj: libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c.obj
@@ -2252,7 +2252,7 @@ libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.obj: libsodium/s
 
 # target to build an object file
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c.obj
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c.obj
 
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.i: libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c.i
@@ -2260,7 +2260,7 @@ libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.i: libsodium/src
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c.i
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c.i
 
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.s: libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c.s
@@ -2268,7 +2268,7 @@ libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.s: libsodium/src
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c.s
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c.s
 
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.obj: libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c.obj
@@ -2276,7 +2276,7 @@ libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.obj: 
 
 # target to build an object file
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c.obj
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c.obj
 
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.i: libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c.i
@@ -2284,7 +2284,7 @@ libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.i: li
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c.i
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c.i
 
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.s: libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c.s
@@ -2292,7 +2292,7 @@ libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.s: li
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c.s
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c.s
 
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.obj: libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c.obj
@@ -2300,7 +2300,7 @@ libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.obj: 
 
 # target to build an object file
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c.obj
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c.obj
 
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.i: libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c.i
@@ -2308,7 +2308,7 @@ libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.i: li
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c.i
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c.i
 
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.s: libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c.s
@@ -2316,7 +2316,7 @@ libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.s: li
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c.s
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c.s
 
 libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.obj: libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c.obj
@@ -2324,7 +2324,7 @@ libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.obj: li
 
 # target to build an object file
 libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c.obj
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c.obj
 
 libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.i: libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c.i
@@ -2332,7 +2332,7 @@ libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.i: libs
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c.i
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c.i
 
 libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.s: libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c.s
@@ -2340,7 +2340,7 @@ libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.s: libs
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c.s
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c.s
 
 libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.obj: libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c.obj
@@ -2348,7 +2348,7 @@ libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.obj: libsodium/
 
 # target to build an object file
 libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c.obj
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c.obj
 
 libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.i: libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c.i
@@ -2356,7 +2356,7 @@ libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.i: libsodium/sr
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c.i
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c.i
 
 libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.s: libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c.s
@@ -2364,7 +2364,7 @@ libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.s: libsodium/sr
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c.s
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c.s
 
 libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.obj: libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c.obj
@@ -2372,7 +2372,7 @@ libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.obj: libs
 
 # target to build an object file
 libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c.obj
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c.obj
 
 libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.i: libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c.i
@@ -2380,7 +2380,7 @@ libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.i: libsod
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c.i
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c.i
 
 libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.s: libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c.s
@@ -2388,7 +2388,7 @@ libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.s: libsod
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c.s
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c.s
 
 libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.obj: libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.c.obj
@@ -2396,7 +2396,7 @@ libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.obj: libsodium/sr
 
 # target to build an object file
 libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.c.obj
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.c.obj
 
 libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.i: libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.c.i
@@ -2404,7 +2404,7 @@ libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.i: libsodium/src/
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.c.i
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.c.i
 
 libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.s: libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.c.s
@@ -2412,7 +2412,7 @@ libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.s: libsodium/src/
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.c.s
 .PHONY : libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.c.s
 
 libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.obj: libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c.obj
@@ -2420,7 +2420,7 @@ libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.obj: libsodium/
 
 # target to build an object file
 libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c.obj
 .PHONY : libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c.obj
 
 libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.i: libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c.i
@@ -2428,7 +2428,7 @@ libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.i: libsodium/sr
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c.i
 .PHONY : libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c.i
 
 libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.s: libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c.s
@@ -2436,7 +2436,7 @@ libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.s: libsodium/sr
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c.s
 .PHONY : libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c.s
 
 libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.obj: libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c.obj
@@ -2444,7 +2444,7 @@ libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.obj: libsodium/sr
 
 # target to build an object file
 libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c.obj
 .PHONY : libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c.obj
 
 libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.i: libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c.i
@@ -2452,7 +2452,7 @@ libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.i: libsodium/src/
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c.i
 .PHONY : libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c.i
 
 libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.s: libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c.s
@@ -2460,7 +2460,7 @@ libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.s: libsodium/src/
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c.s
 .PHONY : libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c.s
 
 libsodium/src/libsodium/crypto_verify/sodium/verify.obj: libsodium/src/libsodium/crypto_verify/sodium/verify.c.obj
@@ -2468,7 +2468,7 @@ libsodium/src/libsodium/crypto_verify/sodium/verify.obj: libsodium/src/libsodium
 
 # target to build an object file
 libsodium/src/libsodium/crypto_verify/sodium/verify.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_verify/sodium/verify.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_verify/sodium/verify.c.obj
 .PHONY : libsodium/src/libsodium/crypto_verify/sodium/verify.c.obj
 
 libsodium/src/libsodium/crypto_verify/sodium/verify.i: libsodium/src/libsodium/crypto_verify/sodium/verify.c.i
@@ -2476,7 +2476,7 @@ libsodium/src/libsodium/crypto_verify/sodium/verify.i: libsodium/src/libsodium/c
 
 # target to preprocess a source file
 libsodium/src/libsodium/crypto_verify/sodium/verify.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_verify/sodium/verify.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_verify/sodium/verify.c.i
 .PHONY : libsodium/src/libsodium/crypto_verify/sodium/verify.c.i
 
 libsodium/src/libsodium/crypto_verify/sodium/verify.s: libsodium/src/libsodium/crypto_verify/sodium/verify.c.s
@@ -2484,7 +2484,7 @@ libsodium/src/libsodium/crypto_verify/sodium/verify.s: libsodium/src/libsodium/c
 
 # target to generate assembly for a file
 libsodium/src/libsodium/crypto_verify/sodium/verify.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_verify/sodium/verify.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/crypto_verify/sodium/verify.c.s
 .PHONY : libsodium/src/libsodium/crypto_verify/sodium/verify.c.s
 
 libsodium/src/libsodium/randombytes/randombytes.obj: libsodium/src/libsodium/randombytes/randombytes.c.obj
@@ -2492,7 +2492,7 @@ libsodium/src/libsodium/randombytes/randombytes.obj: libsodium/src/libsodium/ran
 
 # target to build an object file
 libsodium/src/libsodium/randombytes/randombytes.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/randombytes/randombytes.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/randombytes/randombytes.c.obj
 .PHONY : libsodium/src/libsodium/randombytes/randombytes.c.obj
 
 libsodium/src/libsodium/randombytes/randombytes.i: libsodium/src/libsodium/randombytes/randombytes.c.i
@@ -2500,7 +2500,7 @@ libsodium/src/libsodium/randombytes/randombytes.i: libsodium/src/libsodium/rando
 
 # target to preprocess a source file
 libsodium/src/libsodium/randombytes/randombytes.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/randombytes/randombytes.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/randombytes/randombytes.c.i
 .PHONY : libsodium/src/libsodium/randombytes/randombytes.c.i
 
 libsodium/src/libsodium/randombytes/randombytes.s: libsodium/src/libsodium/randombytes/randombytes.c.s
@@ -2508,7 +2508,7 @@ libsodium/src/libsodium/randombytes/randombytes.s: libsodium/src/libsodium/rando
 
 # target to generate assembly for a file
 libsodium/src/libsodium/randombytes/randombytes.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/randombytes/randombytes.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/randombytes/randombytes.c.s
 .PHONY : libsodium/src/libsodium/randombytes/randombytes.c.s
 
 libsodium/src/libsodium/sodium/codecs.obj: libsodium/src/libsodium/sodium/codecs.c.obj
@@ -2516,7 +2516,7 @@ libsodium/src/libsodium/sodium/codecs.obj: libsodium/src/libsodium/sodium/codecs
 
 # target to build an object file
 libsodium/src/libsodium/sodium/codecs.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/codecs.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/codecs.c.obj
 .PHONY : libsodium/src/libsodium/sodium/codecs.c.obj
 
 libsodium/src/libsodium/sodium/codecs.i: libsodium/src/libsodium/sodium/codecs.c.i
@@ -2524,7 +2524,7 @@ libsodium/src/libsodium/sodium/codecs.i: libsodium/src/libsodium/sodium/codecs.c
 
 # target to preprocess a source file
 libsodium/src/libsodium/sodium/codecs.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/codecs.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/codecs.c.i
 .PHONY : libsodium/src/libsodium/sodium/codecs.c.i
 
 libsodium/src/libsodium/sodium/codecs.s: libsodium/src/libsodium/sodium/codecs.c.s
@@ -2532,7 +2532,7 @@ libsodium/src/libsodium/sodium/codecs.s: libsodium/src/libsodium/sodium/codecs.c
 
 # target to generate assembly for a file
 libsodium/src/libsodium/sodium/codecs.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/codecs.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/codecs.c.s
 .PHONY : libsodium/src/libsodium/sodium/codecs.c.s
 
 libsodium/src/libsodium/sodium/core.obj: libsodium/src/libsodium/sodium/core.c.obj
@@ -2540,7 +2540,7 @@ libsodium/src/libsodium/sodium/core.obj: libsodium/src/libsodium/sodium/core.c.o
 
 # target to build an object file
 libsodium/src/libsodium/sodium/core.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/core.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/core.c.obj
 .PHONY : libsodium/src/libsodium/sodium/core.c.obj
 
 libsodium/src/libsodium/sodium/core.i: libsodium/src/libsodium/sodium/core.c.i
@@ -2548,7 +2548,7 @@ libsodium/src/libsodium/sodium/core.i: libsodium/src/libsodium/sodium/core.c.i
 
 # target to preprocess a source file
 libsodium/src/libsodium/sodium/core.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/core.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/core.c.i
 .PHONY : libsodium/src/libsodium/sodium/core.c.i
 
 libsodium/src/libsodium/sodium/core.s: libsodium/src/libsodium/sodium/core.c.s
@@ -2556,7 +2556,7 @@ libsodium/src/libsodium/sodium/core.s: libsodium/src/libsodium/sodium/core.c.s
 
 # target to generate assembly for a file
 libsodium/src/libsodium/sodium/core.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/core.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/core.c.s
 .PHONY : libsodium/src/libsodium/sodium/core.c.s
 
 libsodium/src/libsodium/sodium/runtime.obj: libsodium/src/libsodium/sodium/runtime.c.obj
@@ -2564,7 +2564,7 @@ libsodium/src/libsodium/sodium/runtime.obj: libsodium/src/libsodium/sodium/runti
 
 # target to build an object file
 libsodium/src/libsodium/sodium/runtime.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/runtime.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/runtime.c.obj
 .PHONY : libsodium/src/libsodium/sodium/runtime.c.obj
 
 libsodium/src/libsodium/sodium/runtime.i: libsodium/src/libsodium/sodium/runtime.c.i
@@ -2572,7 +2572,7 @@ libsodium/src/libsodium/sodium/runtime.i: libsodium/src/libsodium/sodium/runtime
 
 # target to preprocess a source file
 libsodium/src/libsodium/sodium/runtime.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/runtime.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/runtime.c.i
 .PHONY : libsodium/src/libsodium/sodium/runtime.c.i
 
 libsodium/src/libsodium/sodium/runtime.s: libsodium/src/libsodium/sodium/runtime.c.s
@@ -2580,7 +2580,7 @@ libsodium/src/libsodium/sodium/runtime.s: libsodium/src/libsodium/sodium/runtime
 
 # target to generate assembly for a file
 libsodium/src/libsodium/sodium/runtime.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/runtime.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/runtime.c.s
 .PHONY : libsodium/src/libsodium/sodium/runtime.c.s
 
 libsodium/src/libsodium/sodium/utils.obj: libsodium/src/libsodium/sodium/utils.c.obj
@@ -2588,7 +2588,7 @@ libsodium/src/libsodium/sodium/utils.obj: libsodium/src/libsodium/sodium/utils.c
 
 # target to build an object file
 libsodium/src/libsodium/sodium/utils.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/utils.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/utils.c.obj
 .PHONY : libsodium/src/libsodium/sodium/utils.c.obj
 
 libsodium/src/libsodium/sodium/utils.i: libsodium/src/libsodium/sodium/utils.c.i
@@ -2596,7 +2596,7 @@ libsodium/src/libsodium/sodium/utils.i: libsodium/src/libsodium/sodium/utils.c.i
 
 # target to preprocess a source file
 libsodium/src/libsodium/sodium/utils.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/utils.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/utils.c.i
 .PHONY : libsodium/src/libsodium/sodium/utils.c.i
 
 libsodium/src/libsodium/sodium/utils.s: libsodium/src/libsodium/sodium/utils.c.s
@@ -2604,7 +2604,7 @@ libsodium/src/libsodium/sodium/utils.s: libsodium/src/libsodium/sodium/utils.c.s
 
 # target to generate assembly for a file
 libsodium/src/libsodium/sodium/utils.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/utils.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/utils.c.s
 .PHONY : libsodium/src/libsodium/sodium/utils.c.s
 
 libsodium/src/libsodium/sodium/version.obj: libsodium/src/libsodium/sodium/version.c.obj
@@ -2612,7 +2612,7 @@ libsodium/src/libsodium/sodium/version.obj: libsodium/src/libsodium/sodium/versi
 
 # target to build an object file
 libsodium/src/libsodium/sodium/version.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/version.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/version.c.obj
 .PHONY : libsodium/src/libsodium/sodium/version.c.obj
 
 libsodium/src/libsodium/sodium/version.i: libsodium/src/libsodium/sodium/version.c.i
@@ -2620,7 +2620,7 @@ libsodium/src/libsodium/sodium/version.i: libsodium/src/libsodium/sodium/version
 
 # target to preprocess a source file
 libsodium/src/libsodium/sodium/version.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/version.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/version.c.i
 .PHONY : libsodium/src/libsodium/sodium/version.c.i
 
 libsodium/src/libsodium/sodium/version.s: libsodium/src/libsodium/sodium/version.c.s
@@ -2628,7 +2628,7 @@ libsodium/src/libsodium/sodium/version.s: libsodium/src/libsodium/sodium/version
 
 # target to generate assembly for a file
 libsodium/src/libsodium/sodium/version.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/version.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/libsodium/src/libsodium/sodium/version.c.s
 .PHONY : libsodium/src/libsodium/sodium/version.c.s
 
 port/randombytes_esp32.obj: port/randombytes_esp32.c.obj
@@ -2636,7 +2636,7 @@ port/randombytes_esp32.obj: port/randombytes_esp32.c.obj
 
 # target to build an object file
 port/randombytes_esp32.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/port/randombytes_esp32.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/port/randombytes_esp32.c.obj
 .PHONY : port/randombytes_esp32.c.obj
 
 port/randombytes_esp32.i: port/randombytes_esp32.c.i
@@ -2644,7 +2644,7 @@ port/randombytes_esp32.i: port/randombytes_esp32.c.i
 
 # target to preprocess a source file
 port/randombytes_esp32.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/port/randombytes_esp32.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/port/randombytes_esp32.c.i
 .PHONY : port/randombytes_esp32.c.i
 
 port/randombytes_esp32.s: port/randombytes_esp32.c.s
@@ -2652,7 +2652,7 @@ port/randombytes_esp32.s: port/randombytes_esp32.c.s
 
 # target to generate assembly for a file
 port/randombytes_esp32.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/port/randombytes_esp32.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/port/randombytes_esp32.c.s
 .PHONY : port/randombytes_esp32.c.s
 
 # Help Target
@@ -2989,6 +2989,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

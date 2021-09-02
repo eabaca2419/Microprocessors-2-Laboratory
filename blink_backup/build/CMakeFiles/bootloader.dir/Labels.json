@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles/bootloader"
+			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles/bootloader.rule"
+			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		},
 		{
-			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		}
 	],
 	"target" : 

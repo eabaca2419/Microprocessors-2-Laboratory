@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "/Users/eabaca/esp/esp-idf/components/bootloader/subproject",
-    "build_dir":          "/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader",
-    "config_file":        "/Users/eabaca/esp/esp-idf/examples/get-started/blink/sdkconfig",
+    "build_dir":          "/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader",
+    "config_file":        "/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/sdkconfig",
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",

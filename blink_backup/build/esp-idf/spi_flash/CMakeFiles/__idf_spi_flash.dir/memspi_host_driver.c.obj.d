@@ -1,7 +1,7 @@
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/memspi_host_driver.c.obj: \
  /Users/eabaca/esp/esp-idf/components/spi_flash/memspi_host_driver.c \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/spi_flash/include/spi_flash/spi_flash_defs.h \
  /Users/eabaca/esp/esp-idf/components/spi_flash/include/memspi_host_driver.h \
  /Users/eabaca/esp/esp-idf/components/hal/include/hal/spi_flash_hal.h \

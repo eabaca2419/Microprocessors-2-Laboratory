@@ -7,7 +7,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/boo
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_newlib_version.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_intsup.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h \
- /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /Users/eabaca/esp/esp-idf/components/log/include/esp_log.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdarg.h \

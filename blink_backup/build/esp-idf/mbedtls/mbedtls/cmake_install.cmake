@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
-  include("/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
+  include("/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
+  include("/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
 
 endif()
 

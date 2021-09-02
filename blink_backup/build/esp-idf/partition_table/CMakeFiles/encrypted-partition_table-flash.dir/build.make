@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build
 
 # Utility rule file for encrypted-partition_table-flash.
 
@@ -67,9 +67,9 @@ include esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/c
 include esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/progress.make
 
 esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/partition_table && /Applications/CMake.app/Contents/bin/cmake -E echo "Error: The target encrypted-partition_table-flash requires"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/partition_table && /Applications/CMake.app/Contents/bin/cmake -E echo "CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled."
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/partition_table && /Applications/CMake.app/Contents/bin/cmake -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" /Applications/CMake.app/Contents/bin/cmake -P /Users/eabaca/esp/esp-idf/tools/cmake/scripts/fail.cmake
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/partition_table && /Applications/CMake.app/Contents/bin/cmake -E echo "Error: The target encrypted-partition_table-flash requires"
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/partition_table && /Applications/CMake.app/Contents/bin/cmake -E echo "CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled."
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/partition_table && /Applications/CMake.app/Contents/bin/cmake -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" /Applications/CMake.app/Contents/bin/cmake -P /Users/eabaca/esp/esp-idf/tools/cmake/scripts/fail.cmake
 
 encrypted-partition_table-flash: esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash
 encrypted-partition_table-flash: esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/build.make
@@ -80,10 +80,10 @@ esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/build: en
 .PHONY : esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/build
 
 esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/clean:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/encrypted-partition_table-flash.dir/cmake_clean.cmake
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/encrypted-partition_table-flash.dir/cmake_clean.cmake
 .PHONY : esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/clean
 
 esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/get-started/blink /Users/eabaca/esp/esp-idf/components/partition_table /Users/eabaca/esp/esp-idf/examples/get-started/blink/build /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/partition_table /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup /Users/eabaca/esp/esp-idf/components/partition_table /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/partition_table /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/depend
 

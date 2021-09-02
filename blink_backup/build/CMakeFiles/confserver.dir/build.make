@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build
 
 # Utility rule file for confserver.
 
@@ -67,8 +67,8 @@ include CMakeFiles/confserver.dir/compiler_depend.make
 include CMakeFiles/confserver.dir/progress.make
 
 CMakeFiles/confserver:
-	/Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --env-file /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/config.env
-	/Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/tools/kconfig_new/confserver.py --env-file /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/config.env --kconfig /Users/eabaca/esp/esp-idf/Kconfig --sdkconfig-rename /Users/eabaca/esp/esp-idf/sdkconfig.rename --config /Users/eabaca/esp/esp-idf/examples/get-started/blink/sdkconfig
+	/Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --env-file /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/config.env
+	/Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/tools/kconfig_new/confserver.py --env-file /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/config.env --kconfig /Users/eabaca/esp/esp-idf/Kconfig --sdkconfig-rename /Users/eabaca/esp/esp-idf/sdkconfig.rename --config /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/sdkconfig
 
 confserver: CMakeFiles/confserver
 confserver: CMakeFiles/confserver.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/confserver.dir/clean:
 .PHONY : CMakeFiles/confserver.dir/clean
 
 CMakeFiles/confserver.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/get-started/blink /Users/eabaca/esp/esp-idf/examples/get-started/blink /Users/eabaca/esp/esp-idf/examples/get-started/blink/build /Users/eabaca/esp/esp-idf/examples/get-started/blink/build /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles/confserver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles/confserver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/confserver.dir/depend
 

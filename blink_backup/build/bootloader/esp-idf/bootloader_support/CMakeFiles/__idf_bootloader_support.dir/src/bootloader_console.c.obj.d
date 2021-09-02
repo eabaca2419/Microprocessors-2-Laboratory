@@ -1,6 +1,6 @@
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj: \
  /Users/eabaca/esp/esp-idf/components/bootloader_support/src/bootloader_console.c \
- /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_console.h \
  /Users/eabaca/esp/esp-idf/components/soc/include/soc/uart_periph.h \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \

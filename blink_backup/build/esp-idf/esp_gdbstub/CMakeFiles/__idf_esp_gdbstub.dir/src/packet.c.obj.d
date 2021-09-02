@@ -23,4 +23,4 @@ esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.obj: \
  /Users/eabaca/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
  /Users/eabaca/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
  /Users/eabaca/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
- /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/config/sdkconfig.h

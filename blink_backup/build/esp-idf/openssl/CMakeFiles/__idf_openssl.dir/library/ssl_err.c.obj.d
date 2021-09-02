@@ -2,7 +2,7 @@ esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_err.c.obj: \
  /Users/eabaca/esp/esp-idf/components/openssl/library/ssl_err.c \
  /Users/eabaca/esp/esp-idf/components/openssl/include/internal/ssl_dbg.h \
  /Users/eabaca/esp/esp-idf/components/openssl/include/platform/ssl_opt.h \
- /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/openssl/include/platform/ssl_port.h \
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_types.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/cdefs.h \

@@ -9,7 +9,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_qio
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_intsup.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h \
  /Users/eabaca/esp/esp-idf/components/bootloader_support/include/bootloader_flash_config.h \
- /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/bootloader_support/include/esp_image_format.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdbool.h \
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_err.h \

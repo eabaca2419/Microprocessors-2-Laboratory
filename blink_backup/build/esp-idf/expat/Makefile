@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/expat//CMakeFiles/progress.marks
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/expat/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles 0
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/expat//CMakeFiles/progress.marks
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/expat/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/expat/clean
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/expat/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/expat/preinstall
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/expat/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/expat/preinstall
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/expat/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/expat/CMakeFiles/__idf_expat.dir/rule:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/expat/CMakeFiles/__idf_expat.dir/rule
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/expat/CMakeFiles/__idf_expat.dir/rule
 .PHONY : esp-idf/expat/CMakeFiles/__idf_expat.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_expat: esp-idf/expat/CMakeFiles/__idf_expat.dir/rule
 
 # fast build rule for target.
 __idf_expat/fast:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/build
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/build
 .PHONY : __idf_expat/fast
 
 expat/expat/lib/xmlparse.obj: expat/expat/lib/xmlparse.c.obj
@@ -180,7 +180,7 @@ expat/expat/lib/xmlparse.obj: expat/expat/lib/xmlparse.c.obj
 
 # target to build an object file
 expat/expat/lib/xmlparse.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmlparse.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmlparse.c.obj
 .PHONY : expat/expat/lib/xmlparse.c.obj
 
 expat/expat/lib/xmlparse.i: expat/expat/lib/xmlparse.c.i
@@ -188,7 +188,7 @@ expat/expat/lib/xmlparse.i: expat/expat/lib/xmlparse.c.i
 
 # target to preprocess a source file
 expat/expat/lib/xmlparse.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmlparse.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmlparse.c.i
 .PHONY : expat/expat/lib/xmlparse.c.i
 
 expat/expat/lib/xmlparse.s: expat/expat/lib/xmlparse.c.s
@@ -196,7 +196,7 @@ expat/expat/lib/xmlparse.s: expat/expat/lib/xmlparse.c.s
 
 # target to generate assembly for a file
 expat/expat/lib/xmlparse.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmlparse.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmlparse.c.s
 .PHONY : expat/expat/lib/xmlparse.c.s
 
 expat/expat/lib/xmlrole.obj: expat/expat/lib/xmlrole.c.obj
@@ -204,7 +204,7 @@ expat/expat/lib/xmlrole.obj: expat/expat/lib/xmlrole.c.obj
 
 # target to build an object file
 expat/expat/lib/xmlrole.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmlrole.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmlrole.c.obj
 .PHONY : expat/expat/lib/xmlrole.c.obj
 
 expat/expat/lib/xmlrole.i: expat/expat/lib/xmlrole.c.i
@@ -212,7 +212,7 @@ expat/expat/lib/xmlrole.i: expat/expat/lib/xmlrole.c.i
 
 # target to preprocess a source file
 expat/expat/lib/xmlrole.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmlrole.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmlrole.c.i
 .PHONY : expat/expat/lib/xmlrole.c.i
 
 expat/expat/lib/xmlrole.s: expat/expat/lib/xmlrole.c.s
@@ -220,7 +220,7 @@ expat/expat/lib/xmlrole.s: expat/expat/lib/xmlrole.c.s
 
 # target to generate assembly for a file
 expat/expat/lib/xmlrole.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmlrole.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmlrole.c.s
 .PHONY : expat/expat/lib/xmlrole.c.s
 
 expat/expat/lib/xmltok.obj: expat/expat/lib/xmltok.c.obj
@@ -228,7 +228,7 @@ expat/expat/lib/xmltok.obj: expat/expat/lib/xmltok.c.obj
 
 # target to build an object file
 expat/expat/lib/xmltok.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmltok.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmltok.c.obj
 .PHONY : expat/expat/lib/xmltok.c.obj
 
 expat/expat/lib/xmltok.i: expat/expat/lib/xmltok.c.i
@@ -236,7 +236,7 @@ expat/expat/lib/xmltok.i: expat/expat/lib/xmltok.c.i
 
 # target to preprocess a source file
 expat/expat/lib/xmltok.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmltok.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmltok.c.i
 .PHONY : expat/expat/lib/xmltok.c.i
 
 expat/expat/lib/xmltok.s: expat/expat/lib/xmltok.c.s
@@ -244,7 +244,7 @@ expat/expat/lib/xmltok.s: expat/expat/lib/xmltok.c.s
 
 # target to generate assembly for a file
 expat/expat/lib/xmltok.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmltok.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmltok.c.s
 .PHONY : expat/expat/lib/xmltok.c.s
 
 expat/expat/lib/xmltok_impl.obj: expat/expat/lib/xmltok_impl.c.obj
@@ -252,7 +252,7 @@ expat/expat/lib/xmltok_impl.obj: expat/expat/lib/xmltok_impl.c.obj
 
 # target to build an object file
 expat/expat/lib/xmltok_impl.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmltok_impl.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmltok_impl.c.obj
 .PHONY : expat/expat/lib/xmltok_impl.c.obj
 
 expat/expat/lib/xmltok_impl.i: expat/expat/lib/xmltok_impl.c.i
@@ -260,7 +260,7 @@ expat/expat/lib/xmltok_impl.i: expat/expat/lib/xmltok_impl.c.i
 
 # target to preprocess a source file
 expat/expat/lib/xmltok_impl.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmltok_impl.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmltok_impl.c.i
 .PHONY : expat/expat/lib/xmltok_impl.c.i
 
 expat/expat/lib/xmltok_impl.s: expat/expat/lib/xmltok_impl.c.s
@@ -268,7 +268,7 @@ expat/expat/lib/xmltok_impl.s: expat/expat/lib/xmltok_impl.c.s
 
 # target to generate assembly for a file
 expat/expat/lib/xmltok_impl.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmltok_impl.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmltok_impl.c.s
 .PHONY : expat/expat/lib/xmltok_impl.c.s
 
 expat/expat/lib/xmltok_ns.obj: expat/expat/lib/xmltok_ns.c.obj
@@ -276,7 +276,7 @@ expat/expat/lib/xmltok_ns.obj: expat/expat/lib/xmltok_ns.c.obj
 
 # target to build an object file
 expat/expat/lib/xmltok_ns.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmltok_ns.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmltok_ns.c.obj
 .PHONY : expat/expat/lib/xmltok_ns.c.obj
 
 expat/expat/lib/xmltok_ns.i: expat/expat/lib/xmltok_ns.c.i
@@ -284,7 +284,7 @@ expat/expat/lib/xmltok_ns.i: expat/expat/lib/xmltok_ns.c.i
 
 # target to preprocess a source file
 expat/expat/lib/xmltok_ns.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmltok_ns.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmltok_ns.c.i
 .PHONY : expat/expat/lib/xmltok_ns.c.i
 
 expat/expat/lib/xmltok_ns.s: expat/expat/lib/xmltok_ns.c.s
@@ -292,7 +292,7 @@ expat/expat/lib/xmltok_ns.s: expat/expat/lib/xmltok_ns.c.s
 
 # target to generate assembly for a file
 expat/expat/lib/xmltok_ns.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmltok_ns.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/expat/CMakeFiles/__idf_expat.dir/build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/expat/expat/lib/xmltok_ns.c.s
 .PHONY : expat/expat/lib/xmltok_ns.c.s
 
 # Help Target
@@ -334,6 +334,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

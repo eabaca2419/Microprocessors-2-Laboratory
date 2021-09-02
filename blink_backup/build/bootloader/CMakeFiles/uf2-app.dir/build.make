@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader
 
 # Utility rule file for uf2-app.
 
@@ -67,7 +67,7 @@ include CMakeFiles/uf2-app.dir/compiler_depend.make
 include CMakeFiles/uf2-app.dir/progress.make
 
 CMakeFiles/uf2-app:
-	/Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/tools/mkuf2.py write -o /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader/uf2-app.bin --json /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader/flasher_args.json --chip-id 0x1c5f21b0 --bin app
+	/Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/tools/mkuf2.py write -o /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader/uf2-app.bin --json /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader/flasher_args.json --chip-id 0x1c5f21b0 --bin app
 
 uf2-app: CMakeFiles/uf2-app
 uf2-app: CMakeFiles/uf2-app.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/uf2-app.dir/clean:
 .PHONY : CMakeFiles/uf2-app.dir/clean
 
 CMakeFiles/uf2-app.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader/CMakeFiles/uf2-app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader/CMakeFiles/uf2-app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uf2-app.dir/depend
 

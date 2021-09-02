@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader
 
 # Utility rule file for efuse_custom_table.
 
@@ -74,10 +74,10 @@ esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/build: efuse_custom_table
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/build
 
 esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/clean:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse_custom_table.dir/cmake_clean.cmake
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse_custom_table.dir/cmake_clean.cmake
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/clean
 
 esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/components/efuse /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader/esp-idf/efuse /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader/esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/components/efuse /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader/esp-idf/efuse /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader/esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/depend
 

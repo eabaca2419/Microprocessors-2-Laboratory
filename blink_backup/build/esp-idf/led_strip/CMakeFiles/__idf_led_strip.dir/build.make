@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build
 
 # Include any dependencies generated for this target.
 include esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/depend.make
@@ -70,18 +70,18 @@ include esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/progress.make
 include esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/flags.make
 
 esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.obj: esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/flags.make
-esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.obj: ../../../common_components/led_strip/led_strip_rmt_ws2812.c
+esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.obj: ../../../../common_components/led_strip/led_strip_rmt_ws2812.c
 esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.obj: esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.obj"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/led_strip && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.obj -MF CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.obj.d -o CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.obj -c /Users/eabaca/esp/esp-idf/examples/common_components/led_strip/led_strip_rmt_ws2812.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.obj"
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/led_strip && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.obj -MF CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.obj.d -o CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.obj -c /Users/eabaca/esp/esp-idf/examples/common_components/led_strip/led_strip_rmt_ws2812.c
 
 esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.i"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/led_strip && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/examples/common_components/led_strip/led_strip_rmt_ws2812.c > CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/led_strip && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/examples/common_components/led_strip/led_strip_rmt_ws2812.c > CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.i
 
 esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.s"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/led_strip && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/examples/common_components/led_strip/led_strip_rmt_ws2812.c -o CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/led_strip && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/examples/common_components/led_strip/led_strip_rmt_ws2812.c -o CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.s
 
 # Object files for target __idf_led_strip
 __idf_led_strip_OBJECTS = \
@@ -93,19 +93,19 @@ __idf_led_strip_EXTERNAL_OBJECTS =
 esp-idf/led_strip/libled_strip.a: esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/led_strip_rmt_ws2812.c.obj
 esp-idf/led_strip/libled_strip.a: esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/build.make
 esp-idf/led_strip/libled_strip.a: esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libled_strip.a"
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/led_strip && $(CMAKE_COMMAND) -P CMakeFiles/__idf_led_strip.dir/cmake_clean_target.cmake
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/led_strip && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_led_strip.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libled_strip.a"
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/led_strip && $(CMAKE_COMMAND) -P CMakeFiles/__idf_led_strip.dir/cmake_clean_target.cmake
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/led_strip && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_led_strip.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/build: esp-idf/led_strip/libled_strip.a
 .PHONY : esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/build
 
 esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/clean:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/led_strip && $(CMAKE_COMMAND) -P CMakeFiles/__idf_led_strip.dir/cmake_clean.cmake
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/led_strip && $(CMAKE_COMMAND) -P CMakeFiles/__idf_led_strip.dir/cmake_clean.cmake
 .PHONY : esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/clean
 
 esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/get-started/blink /Users/eabaca/esp/esp-idf/examples/common_components/led_strip /Users/eabaca/esp/esp-idf/examples/get-started/blink/build /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/led_strip /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup /Users/eabaca/esp/esp-idf/examples/common_components/led_strip /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/led_strip /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/led_strip/CMakeFiles/__idf_led_strip.dir/depend
 

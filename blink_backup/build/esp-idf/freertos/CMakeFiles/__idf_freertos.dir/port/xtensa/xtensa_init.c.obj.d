@@ -17,7 +17,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port/xtensa/xtensa_init.c.obj: \
  /Users/eabaca/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
  /Users/eabaca/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /Users/eabaca/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
- /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/FreeRTOSConfig.h \
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_config.h \

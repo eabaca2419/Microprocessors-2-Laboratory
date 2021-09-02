@@ -1,7 +1,7 @@
 esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal.c.obj: \
  /Users/eabaca/esp/esp-idf/components/hal/timer_hal.c \
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_attr.h \
- /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/hal/include/hal/timer_hal.h \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
  /Users/eabaca/esp/esp-idf/components/hal/esp32/include/hal/timer_ll.h \

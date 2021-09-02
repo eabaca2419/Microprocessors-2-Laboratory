@@ -1,4 +1,4 @@
-# Install script for directory: /Users/eabaca/esp/esp-idf/examples/get-started/blink/main
+# Install script for directory: /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

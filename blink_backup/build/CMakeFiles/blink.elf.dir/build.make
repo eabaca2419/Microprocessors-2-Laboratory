@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/blink.elf.dir/depend.make
@@ -70,22 +70,22 @@ include CMakeFiles/blink.elf.dir/progress.make
 include CMakeFiles/blink.elf.dir/flags.make
 
 project_elf_src_esp32.c:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src_esp32.c"
-	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/project_elf_src_esp32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src_esp32.c"
+	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/project_elf_src_esp32.c
 
 CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.obj: project_elf_src_esp32.c
 CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.obj: CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.obj"
-	/Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.obj -MF CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.obj.d -o CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.obj -c /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/project_elf_src_esp32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.obj"
+	/Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.obj -MF CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.obj.d -o CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.obj -c /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/project_elf_src_esp32.c
 
 CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.i"
-	/Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/project_elf_src_esp32.c > CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.i
+	/Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/project_elf_src_esp32.c > CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.i
 
 CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.s"
-	/Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/project_elf_src_esp32.c -o CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.s
+	/Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/project_elf_src_esp32.c -o CMakeFiles/blink.elf.dir/project_elf_src_esp32.c.s
 
 # Object files for target blink.elf
 blink_elf_OBJECTS = \
@@ -494,7 +494,7 @@ blink.elf: /Users/eabaca/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newli
 blink.elf: /Users/eabaca/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-time.ld
 blink.elf: /Users/eabaca/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
 blink.elf: CMakeFiles/blink.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable blink.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable blink.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/blink.elf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -506,6 +506,6 @@ CMakeFiles/blink.elf.dir/clean:
 .PHONY : CMakeFiles/blink.elf.dir/clean
 
 CMakeFiles/blink.elf.dir/depend: project_elf_src_esp32.c
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/get-started/blink /Users/eabaca/esp/esp-idf/examples/get-started/blink /Users/eabaca/esp/esp-idf/examples/get-started/blink/build /Users/eabaca/esp/esp-idf/examples/get-started/blink/build /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles/blink.elf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles/blink.elf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/blink.elf.dir/depend
 

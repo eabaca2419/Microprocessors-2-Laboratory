@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build
 
 # Utility rule file for memory_ld.
 
@@ -69,9 +69,9 @@ include esp-idf/esp_system/CMakeFiles/memory_ld.dir/progress.make
 esp-idf/esp_system/CMakeFiles/memory_ld: esp-idf/esp_system/ld/memory.ld
 
 esp-idf/esp_system/ld/memory.ld: config/sdkconfig.h
-esp-idf/esp_system/ld/memory.ld: ../../../../components/esp_system/ld/esp32/memory.ld.in
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating memory.ld linker script..."
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_system && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -C -P -x c -E -o /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_system/ld/memory.ld -I /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/config /Users/eabaca/esp/esp-idf/components/esp_system/ld/esp32/memory.ld.in
+esp-idf/esp_system/ld/memory.ld: ../../../../../components/esp_system/ld/esp32/memory.ld.in
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating memory.ld linker script..."
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_system && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -C -P -x c -E -o /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_system/ld/memory.ld -I /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/config /Users/eabaca/esp/esp-idf/components/esp_system/ld/esp32/memory.ld.in
 
 memory_ld: esp-idf/esp_system/CMakeFiles/memory_ld
 memory_ld: esp-idf/esp_system/ld/memory.ld
@@ -83,10 +83,10 @@ esp-idf/esp_system/CMakeFiles/memory_ld.dir/build: memory_ld
 .PHONY : esp-idf/esp_system/CMakeFiles/memory_ld.dir/build
 
 esp-idf/esp_system/CMakeFiles/memory_ld.dir/clean:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_system && $(CMAKE_COMMAND) -P CMakeFiles/memory_ld.dir/cmake_clean.cmake
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_system && $(CMAKE_COMMAND) -P CMakeFiles/memory_ld.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_system/CMakeFiles/memory_ld.dir/clean
 
 esp-idf/esp_system/CMakeFiles/memory_ld.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/get-started/blink /Users/eabaca/esp/esp-idf/components/esp_system /Users/eabaca/esp/esp-idf/examples/get-started/blink/build /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_system /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_system/CMakeFiles/memory_ld.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup /Users/eabaca/esp/esp-idf/components/esp_system /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_system /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esp_system/CMakeFiles/memory_ld.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/esp_system/CMakeFiles/memory_ld.dir/depend
 

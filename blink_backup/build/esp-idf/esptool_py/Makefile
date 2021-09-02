@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/esptool_py//CMakeFiles/progress.marks
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esptool_py/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/CMakeFiles 0
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/esptool_py//CMakeFiles/progress.marks
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esptool_py/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esptool_py/clean
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esptool_py/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esptool_py/preinstall
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esptool_py/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esptool_py/preinstall
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esptool_py/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esptool_py/CMakeFiles/app_check_size.dir/rule:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esptool_py/CMakeFiles/app_check_size.dir/rule
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esptool_py/CMakeFiles/app_check_size.dir/rule
 .PHONY : esp-idf/esptool_py/CMakeFiles/app_check_size.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ app_check_size: esp-idf/esptool_py/CMakeFiles/app_check_size.dir/rule
 
 # fast build rule for target.
 app_check_size/fast:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/esptool_py/CMakeFiles/app_check_size.dir/build.make esp-idf/esptool_py/CMakeFiles/app_check_size.dir/build
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/esptool_py/CMakeFiles/app_check_size.dir/build.make esp-idf/esptool_py/CMakeFiles/app_check_size.dir/build
 .PHONY : app_check_size/fast
 
 # Convenience name for target.
 esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/rule:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/rule
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/rule
 .PHONY : esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ encrypted-app-flash: esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/rule
 
 # fast build rule for target.
 encrypted-app-flash/fast:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/build.make esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/build
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/build.make esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/build
 .PHONY : encrypted-app-flash/fast
 
 # Convenience name for target.
 esp-idf/esptool_py/CMakeFiles/app-flash.dir/rule:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esptool_py/CMakeFiles/app-flash.dir/rule
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esptool_py/CMakeFiles/app-flash.dir/rule
 .PHONY : esp-idf/esptool_py/CMakeFiles/app-flash.dir/rule
 
 # Convenience name for target.
@@ -200,7 +200,7 @@ app-flash: esp-idf/esptool_py/CMakeFiles/app-flash.dir/rule
 
 # fast build rule for target.
 app-flash/fast:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(MAKE) $(MAKESILENT) -f esp-idf/esptool_py/CMakeFiles/app-flash.dir/build.make esp-idf/esptool_py/CMakeFiles/app-flash.dir/build
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(MAKE) $(MAKESILENT) -f esp-idf/esptool_py/CMakeFiles/app-flash.dir/build.make esp-idf/esptool_py/CMakeFiles/app-flash.dir/build
 .PHONY : app-flash/fast
 
 # Help Target
@@ -229,6 +229,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

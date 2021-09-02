@@ -2,7 +2,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj: \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/touch_sensor_periph.c \
  /Users/eabaca/esp/esp-idf/components/soc/include/soc/touch_sensor_periph.h \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/bootloader/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/bootloader/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/touch_sensor_channel.h \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc.h \

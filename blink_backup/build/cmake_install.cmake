@@ -1,4 +1,4 @@
-# Install script for directory: /Users/eabaca/esp/esp-idf/examples/get-started/blink
+# Install script for directory: /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/cmake_install.cmake")
+  include("/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/eabaca/esp/esp-idf/examples/get-started/blink/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/blink/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build
 
 # Utility rule file for show_efuse_table.
 
@@ -67,7 +67,7 @@ include esp-idf/efuse/CMakeFiles/show_efuse_table.dir/compiler_depend.make
 include esp-idf/efuse/CMakeFiles/show_efuse_table.dir/progress.make
 
 esp-idf/efuse/CMakeFiles/show_efuse_table:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/efuse && /Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/components/efuse/efuse_table_gen.py /Users/eabaca/esp/esp-idf/components/efuse/esp32/esp_efuse_table.csv -t esp32 --max_blk_len 192 --info
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/efuse && /Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/components/efuse/efuse_table_gen.py /Users/eabaca/esp/esp-idf/components/efuse/esp32/esp_efuse_table.csv -t esp32 --max_blk_len 192 --info
 
 show_efuse_table: esp-idf/efuse/CMakeFiles/show_efuse_table
 show_efuse_table: esp-idf/efuse/CMakeFiles/show_efuse_table.dir/build.make
@@ -78,10 +78,10 @@ esp-idf/efuse/CMakeFiles/show_efuse_table.dir/build: show_efuse_table
 .PHONY : esp-idf/efuse/CMakeFiles/show_efuse_table.dir/build
 
 esp-idf/efuse/CMakeFiles/show_efuse_table.dir/clean:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/show_efuse_table.dir/cmake_clean.cmake
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/show_efuse_table.dir/cmake_clean.cmake
 .PHONY : esp-idf/efuse/CMakeFiles/show_efuse_table.dir/clean
 
 esp-idf/efuse/CMakeFiles/show_efuse_table.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/get-started/blink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/get-started/blink /Users/eabaca/esp/esp-idf/components/efuse /Users/eabaca/esp/esp-idf/examples/get-started/blink/build /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/efuse /Users/eabaca/esp/esp-idf/examples/get-started/blink/build/esp-idf/efuse/CMakeFiles/show_efuse_table.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup /Users/eabaca/esp/esp-idf/components/efuse /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/efuse /Users/eabaca/esp/esp-idf/examples/get-started/Micro_2_Lab/blink_backup/build/esp-idf/efuse/CMakeFiles/show_efuse_table.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/efuse/CMakeFiles/show_efuse_table.dir/depend
 
