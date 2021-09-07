@@ -261,7 +261,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/eabaca/esp/esp-idf/components/xtensa/CMakeLists.txt"
   "/Users/eabaca/esp/esp-idf/components/xtensa/project_include.cmake"
   "/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/.git/HEAD"
-  "/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/.git/refs/heads/main"
+  "/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/.git/logs/refs/heads/main"
   "../CMakeLists.txt"
   "CMakeFiles/3.21.1/CMakeASMCompiler.cmake"
   "CMakeFiles/3.21.1/CMakeCCompiler.cmake"

@@ -1784,13 +1784,10 @@ CMakeFiles/size-components.dir/clean:
 CMakeFiles/main.elf.dir/all: esp-idf/asio/CMakeFiles/__idf_asio.dir/all
 CMakeFiles/main.elf.dir/all: esp-idf/cbor/CMakeFiles/__idf_cbor.dir/all
 CMakeFiles/main.elf.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
-CMakeFiles/main.elf.dir/all: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
 CMakeFiles/main.elf.dir/all: esp-idf/coap/CMakeFiles/__idf_coap.dir/all
 CMakeFiles/main.elf.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 CMakeFiles/main.elf.dir/all: esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/all
 CMakeFiles/main.elf.dir/all: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
-CMakeFiles/main.elf.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
-CMakeFiles/main.elf.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 CMakeFiles/main.elf.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
 CMakeFiles/main.elf.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
 CMakeFiles/main.elf.dir/all: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
@@ -1808,9 +1805,12 @@ CMakeFiles/main.elf.dir/all: esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/all
 CMakeFiles/main.elf.dir/all: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
 CMakeFiles/main.elf.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
 CMakeFiles/main.elf.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
-CMakeFiles/main.elf.dir/all: esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all
-CMakeFiles/main.elf.dir/all: CMakeFiles/_project_elf_src.dir/all
 CMakeFiles/main.elf.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
+CMakeFiles/main.elf.dir/all: esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all
+CMakeFiles/main.elf.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
+CMakeFiles/main.elf.dir/all: CMakeFiles/_project_elf_src.dir/all
+CMakeFiles/main.elf.dir/all: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
+CMakeFiles/main.elf.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles --progress-num=90 "Built target main.elf"
@@ -1914,8 +1914,8 @@ CMakeFiles/size-files.dir/clean:
 # Target rules for target CMakeFiles/app.dir
 
 # All Build rule for target.
-CMakeFiles/app.dir/all: CMakeFiles/gen_project_binary.dir/all
 CMakeFiles/app.dir/all: esp-idf/esptool_py/CMakeFiles/app_check_size.dir/all
+CMakeFiles/app.dir/all: CMakeFiles/gen_project_binary.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles --progress-num= "Built target app"
@@ -1967,9 +1967,9 @@ CMakeFiles/uf2-app.dir/clean:
 # Target rules for target CMakeFiles/flash.dir
 
 # All Build rule for target.
+CMakeFiles/flash.dir/all: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
 CMakeFiles/flash.dir/all: CMakeFiles/app.dir/all
 CMakeFiles/flash.dir/all: CMakeFiles/bootloader.dir/all
-CMakeFiles/flash.dir/all: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flash.dir/build.make CMakeFiles/flash.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flash.dir/build.make CMakeFiles/flash.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles --progress-num= "Built target flash"
@@ -2672,8 +2672,8 @@ esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/clean:
 # Target rules for target esp-idf/esptool_py/CMakeFiles/app_check_size.dir
 
 # All Build rule for target.
-esp-idf/esptool_py/CMakeFiles/app_check_size.dir/all: CMakeFiles/gen_project_binary.dir/all
 esp-idf/esptool_py/CMakeFiles/app_check_size.dir/all: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
+esp-idf/esptool_py/CMakeFiles/app_check_size.dir/all: CMakeFiles/gen_project_binary.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esptool_py/CMakeFiles/app_check_size.dir/build.make esp-idf/esptool_py/CMakeFiles/app_check_size.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/esptool_py/CMakeFiles/app_check_size.dir/build.make esp-idf/esptool_py/CMakeFiles/app_check_size.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles --progress-num= "Built target app_check_size"
@@ -3118,13 +3118,10 @@ esp-idf/esp_system/CMakeFiles/memory_ld.dir/clean:
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/asio/CMakeFiles/__idf_asio.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/cbor/CMakeFiles/__idf_cbor.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/coap/CMakeFiles/__idf_coap.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
@@ -3143,6 +3140,9 @@ esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/spiffs
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/build.make esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/build.make esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles --progress-num= "Built target __ldgen_output_sections.ld"
@@ -4132,8 +4132,8 @@ esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/clean:
 
 # All Build rule for target.
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
-esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
+esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles --progress-num=71 "Built target __idf_protocomm"
@@ -4187,10 +4187,10 @@ esp-idf/mdns/CMakeFiles/__idf_mdns.dir/clean:
 
 # All Build rule for target.
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
-esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
+esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles --progress-num= "Built target __idf_esp_local_ctrl"
@@ -4581,8 +4581,8 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/clean:
 # Target rules for target esp-idf/ulp/CMakeFiles/__idf_ulp.dir
 
 # All Build rule for target.
-esp-idf/ulp/CMakeFiles/__idf_ulp.dir/all: esp-idf/esp_system/CMakeFiles/memory_ld.dir/all
 esp-idf/ulp/CMakeFiles/__idf_ulp.dir/all: esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/all
+esp-idf/ulp/CMakeFiles/__idf_ulp.dir/all: esp-idf/esp_system/CMakeFiles/memory_ld.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/ulp/CMakeFiles/__idf_ulp.dir/build.make esp-idf/ulp/CMakeFiles/__idf_ulp.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/ulp/CMakeFiles/__idf_ulp.dir/build.make esp-idf/ulp/CMakeFiles/__idf_ulp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles --progress-num= "Built target __idf_ulp"
@@ -4609,11 +4609,11 @@ esp-idf/ulp/CMakeFiles/__idf_ulp.dir/clean:
 
 # All Build rule for target.
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
-esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
+esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles --progress-num=81 "Built target __idf_wifi_provisioning"
@@ -4642,13 +4642,10 @@ esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/clean:
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/asio/CMakeFiles/__idf_asio.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/cbor/CMakeFiles/__idf_cbor.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/coap/CMakeFiles/__idf_coap.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
@@ -4666,6 +4663,9 @@ esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/perfmon/CMakeFiles/__idf_per
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles --progress-num=62 "Built target __idf_main"

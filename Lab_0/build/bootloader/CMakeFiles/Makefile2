@@ -590,8 +590,8 @@ CMakeFiles/size-files.dir/clean:
 # Target rules for target CMakeFiles/bootloader.elf.dir
 
 # All Build rule for target.
-CMakeFiles/bootloader.elf.dir/all: esp-idf/hal/CMakeFiles/__idf_hal.dir/all
 CMakeFiles/bootloader.elf.dir/all: CMakeFiles/_project_elf_src.dir/all
+CMakeFiles/bootloader.elf.dir/all: esp-idf/hal/CMakeFiles/__idf_hal.dir/all
 CMakeFiles/bootloader.elf.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bootloader.elf.dir/build.make CMakeFiles/bootloader.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bootloader.elf.dir/build.make CMakeFiles/bootloader.elf.dir/build
