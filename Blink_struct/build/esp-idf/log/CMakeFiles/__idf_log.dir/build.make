@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build
 
 # Include any dependencies generated for this target.
 include esp-idf/log/CMakeFiles/__idf_log.dir/depend.make
@@ -72,44 +72,44 @@ include esp-idf/log/CMakeFiles/__idf_log.dir/flags.make
 esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj: esp-idf/log/CMakeFiles/__idf_log.dir/flags.make
 esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj: ../../../../components/log/log.c
 esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj: esp-idf/log/CMakeFiles/__idf_log.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj"
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/log && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj -MF CMakeFiles/__idf_log.dir/log.c.obj.d -o CMakeFiles/__idf_log.dir/log.c.obj -c /Users/eabaca/esp/esp-idf/components/log/log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj"
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/log && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj -MF CMakeFiles/__idf_log.dir/log.c.obj.d -o CMakeFiles/__idf_log.dir/log.c.obj -c /Users/eabaca/esp/esp-idf/components/log/log.c
 
 esp-idf/log/CMakeFiles/__idf_log.dir/log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_log.dir/log.c.i"
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/log && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/components/log/log.c > CMakeFiles/__idf_log.dir/log.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/log && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/components/log/log.c > CMakeFiles/__idf_log.dir/log.c.i
 
 esp-idf/log/CMakeFiles/__idf_log.dir/log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_log.dir/log.c.s"
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/log && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/components/log/log.c -o CMakeFiles/__idf_log.dir/log.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/log && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/components/log/log.c -o CMakeFiles/__idf_log.dir/log.c.s
 
 esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj: esp-idf/log/CMakeFiles/__idf_log.dir/flags.make
 esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj: ../../../../components/log/log_buffers.c
 esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj: esp-idf/log/CMakeFiles/__idf_log.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj"
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/log && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj -MF CMakeFiles/__idf_log.dir/log_buffers.c.obj.d -o CMakeFiles/__idf_log.dir/log_buffers.c.obj -c /Users/eabaca/esp/esp-idf/components/log/log_buffers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj"
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/log && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj -MF CMakeFiles/__idf_log.dir/log_buffers.c.obj.d -o CMakeFiles/__idf_log.dir/log_buffers.c.obj -c /Users/eabaca/esp/esp-idf/components/log/log_buffers.c
 
 esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_log.dir/log_buffers.c.i"
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/log && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/components/log/log_buffers.c > CMakeFiles/__idf_log.dir/log_buffers.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/log && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/components/log/log_buffers.c > CMakeFiles/__idf_log.dir/log_buffers.c.i
 
 esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_log.dir/log_buffers.c.s"
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/log && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/components/log/log_buffers.c -o CMakeFiles/__idf_log.dir/log_buffers.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/log && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/components/log/log_buffers.c -o CMakeFiles/__idf_log.dir/log_buffers.c.s
 
 esp-idf/log/CMakeFiles/__idf_log.dir/log_freertos.c.obj: esp-idf/log/CMakeFiles/__idf_log.dir/flags.make
 esp-idf/log/CMakeFiles/__idf_log.dir/log_freertos.c.obj: ../../../../components/log/log_freertos.c
 esp-idf/log/CMakeFiles/__idf_log.dir/log_freertos.c.obj: esp-idf/log/CMakeFiles/__idf_log.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log_freertos.c.obj"
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/log && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/log/CMakeFiles/__idf_log.dir/log_freertos.c.obj -MF CMakeFiles/__idf_log.dir/log_freertos.c.obj.d -o CMakeFiles/__idf_log.dir/log_freertos.c.obj -c /Users/eabaca/esp/esp-idf/components/log/log_freertos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log_freertos.c.obj"
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/log && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/log/CMakeFiles/__idf_log.dir/log_freertos.c.obj -MF CMakeFiles/__idf_log.dir/log_freertos.c.obj.d -o CMakeFiles/__idf_log.dir/log_freertos.c.obj -c /Users/eabaca/esp/esp-idf/components/log/log_freertos.c
 
 esp-idf/log/CMakeFiles/__idf_log.dir/log_freertos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_log.dir/log_freertos.c.i"
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/log && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/components/log/log_freertos.c > CMakeFiles/__idf_log.dir/log_freertos.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/log && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eabaca/esp/esp-idf/components/log/log_freertos.c > CMakeFiles/__idf_log.dir/log_freertos.c.i
 
 esp-idf/log/CMakeFiles/__idf_log.dir/log_freertos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_log.dir/log_freertos.c.s"
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/log && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/components/log/log_freertos.c -o CMakeFiles/__idf_log.dir/log_freertos.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/log && /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eabaca/esp/esp-idf/components/log/log_freertos.c -o CMakeFiles/__idf_log.dir/log_freertos.c.s
 
 # Object files for target __idf_log
 __idf_log_OBJECTS = \
@@ -125,19 +125,19 @@ esp-idf/log/liblog.a: esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj
 esp-idf/log/liblog.a: esp-idf/log/CMakeFiles/__idf_log.dir/log_freertos.c.obj
 esp-idf/log/liblog.a: esp-idf/log/CMakeFiles/__idf_log.dir/build.make
 esp-idf/log/liblog.a: esp-idf/log/CMakeFiles/__idf_log.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library liblog.a"
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/log && $(CMAKE_COMMAND) -P CMakeFiles/__idf_log.dir/cmake_clean_target.cmake
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/log && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_log.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library liblog.a"
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/log && $(CMAKE_COMMAND) -P CMakeFiles/__idf_log.dir/cmake_clean_target.cmake
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/log && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_log.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/log/CMakeFiles/__idf_log.dir/build: esp-idf/log/liblog.a
 .PHONY : esp-idf/log/CMakeFiles/__idf_log.dir/build
 
 esp-idf/log/CMakeFiles/__idf_log.dir/clean:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/log && $(CMAKE_COMMAND) -P CMakeFiles/__idf_log.dir/cmake_clean.cmake
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/log && $(CMAKE_COMMAND) -P CMakeFiles/__idf_log.dir/cmake_clean.cmake
 .PHONY : esp-idf/log/CMakeFiles/__idf_log.dir/clean
 
 esp-idf/log/CMakeFiles/__idf_log.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0 /Users/eabaca/esp/esp-idf/components/log /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/log /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/log/CMakeFiles/__idf_log.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct /Users/eabaca/esp/esp-idf/components/log /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/log /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/log/CMakeFiles/__idf_log.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/log/CMakeFiles/__idf_log.dir/depend
 

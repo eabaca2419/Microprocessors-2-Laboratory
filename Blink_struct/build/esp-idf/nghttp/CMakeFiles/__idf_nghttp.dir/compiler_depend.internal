@@ -25,7 +25,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_buf.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -83,7 +83,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_callbacks.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -137,7 +137,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_debug.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -191,7 +191,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_frame.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -258,7 +258,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_hd.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -319,7 +319,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_hd_huffman.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -379,7 +379,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_hd_huffman_data.c
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -433,7 +433,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_helper.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -489,7 +489,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_http.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -557,7 +557,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_map.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -613,7 +613,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_mem.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -667,7 +667,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_npn.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -721,7 +721,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_option.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -788,7 +788,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_outbound_item.c.o
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -849,7 +849,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_pq.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -906,7 +906,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_priority_spec.c.o
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -960,7 +960,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_queue.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -1014,7 +1014,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_rcbuf.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -1070,7 +1070,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_session.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -1142,7 +1142,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_stream.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -1210,7 +1210,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_submit.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -1278,7 +1278,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/nghttp2/lib/nghttp2_version.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -1340,7 +1340,7 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/port/http_parser.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdint.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_intsup.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/reent.h

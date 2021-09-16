@@ -1,4 +1,4 @@
-/* * Data converted from /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

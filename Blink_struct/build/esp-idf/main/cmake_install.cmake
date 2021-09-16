@@ -1,4 +1,4 @@
-# Install script for directory: /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/main
+# Install script for directory: /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

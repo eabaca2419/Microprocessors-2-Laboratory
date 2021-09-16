@@ -6,7 +6,7 @@ esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_co
  /Users/eabaca/esp/esp-idf/components/wifi_provisioning/proto-c/wifi_config.pb-c.h
  /Users/eabaca/esp/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h
@@ -45,7 +45,7 @@ esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_co
  /Users/eabaca/esp/esp-idf/components/wifi_provisioning/proto-c/wifi_constants.pb-c.h
  /Users/eabaca/esp/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h
@@ -82,7 +82,7 @@ esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_sc
  /Users/eabaca/esp/esp-idf/components/wifi_provisioning/proto-c/wifi_scan.pb-c.h
  /Users/eabaca/esp/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h
@@ -138,7 +138,7 @@ esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/handlers.c.
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -331,7 +331,7 @@ esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/manager.c.o
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/cdefs.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
@@ -531,7 +531,7 @@ esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_cons
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/cdefs.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
@@ -728,7 +728,7 @@ esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_soft
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/cdefs.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
@@ -928,7 +928,7 @@ esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_config
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h
@@ -1095,7 +1095,7 @@ esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_scan.c
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h

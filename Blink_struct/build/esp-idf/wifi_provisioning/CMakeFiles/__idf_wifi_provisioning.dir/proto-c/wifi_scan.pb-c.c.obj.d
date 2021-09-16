@@ -3,7 +3,7 @@ esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_sc
  /Users/eabaca/esp/esp-idf/components/wifi_provisioning/proto-c/wifi_scan.pb-c.h \
  /Users/eabaca/esp/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h \
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h \
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h \

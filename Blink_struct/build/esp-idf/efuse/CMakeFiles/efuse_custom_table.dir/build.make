@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build
 
 # Utility rule file for efuse_custom_table.
 
@@ -74,10 +74,10 @@ esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/build: efuse_custom_table
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/build
 
 esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/clean:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse_custom_table.dir/cmake_clean.cmake
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse_custom_table.dir/cmake_clean.cmake
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/clean
 
 esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0 /Users/eabaca/esp/esp-idf/components/efuse /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/efuse /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct /Users/eabaca/esp/esp-idf/components/efuse /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/efuse /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/depend
 

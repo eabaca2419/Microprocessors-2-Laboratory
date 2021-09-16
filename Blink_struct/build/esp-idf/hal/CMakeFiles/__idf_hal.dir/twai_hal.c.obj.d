@@ -1,7 +1,7 @@
 esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal.c.obj: \
  /Users/eabaca/esp/esp-idf/components/hal/twai_hal.c \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stddef.h \
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/hal/include/hal/twai_hal.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdbool.h \
  /Users/eabaca/esp/esp-idf/components/hal/include/hal/twai_types.h \

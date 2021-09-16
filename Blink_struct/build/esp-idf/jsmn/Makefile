@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/jsmn//CMakeFiles/progress.marks
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/jsmn/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles 0
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/CMakeFiles /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/jsmn//CMakeFiles/progress.marks
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/jsmn/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/jsmn/clean
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/jsmn/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/jsmn/preinstall
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/jsmn/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/jsmn/preinstall
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/jsmn/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/rule:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/rule
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/rule
 .PHONY : esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_jsmn: esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/rule
 
 # fast build rule for target.
 __idf_jsmn/fast:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/build.make esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/build
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/build.make esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/build
 .PHONY : __idf_jsmn/fast
 
 src/jsmn.obj: src/jsmn.c.obj
@@ -180,7 +180,7 @@ src/jsmn.obj: src/jsmn.c.obj
 
 # target to build an object file
 src/jsmn.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/build.make esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/src/jsmn.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/build.make esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/src/jsmn.c.obj
 .PHONY : src/jsmn.c.obj
 
 src/jsmn.i: src/jsmn.c.i
@@ -188,7 +188,7 @@ src/jsmn.i: src/jsmn.c.i
 
 # target to preprocess a source file
 src/jsmn.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/build.make esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/src/jsmn.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/build.make esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/src/jsmn.c.i
 .PHONY : src/jsmn.c.i
 
 src/jsmn.s: src/jsmn.c.s
@@ -196,7 +196,7 @@ src/jsmn.s: src/jsmn.c.s
 
 # target to generate assembly for a file
 src/jsmn.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/build.make esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/src/jsmn.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/build.make esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/src/jsmn.c.s
 .PHONY : src/jsmn.c.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

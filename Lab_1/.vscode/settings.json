@@ -1,6 +1,9 @@
 {
   "C_Cpp.intelliSenseEngine": "Tag Parser",
   "files.associations": {
-    "freertos.h": "c"
+    "freertos.h": "c",
+    "esp_log.h": "c",
+    "gpio.h": "c",
+    "semphr.h": "c"
   }
 }

@@ -22,7 +22,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_arch.c
  /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_compiler.h \
  /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/FreeRTOSConfig.h \
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_config.h \
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_context.h \

@@ -11,7 +11,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/esp_himem.
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h \
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_compiler.h \
  /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/FreeRTOSConfig.h \
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_config.h \
  /Users/eabaca/esp/esp-idf/components/xtensa/include/xtensa/hal.h \

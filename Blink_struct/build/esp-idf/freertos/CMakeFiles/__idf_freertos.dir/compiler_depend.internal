@@ -14,7 +14,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-openocd.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_compiler.h
  /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/FreeRTOSConfig.h
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_config.h
  /Users/eabaca/esp/esp-idf/components/xtensa/include/xtensa/hal.h
@@ -126,7 +126,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/croutine.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_compiler.h
  /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/FreeRTOSConfig.h
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_config.h
  /Users/eabaca/esp/esp-idf/components/xtensa/include/xtensa/hal.h
@@ -244,7 +244,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/task_snapshot.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_compiler.h
  /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/FreeRTOSConfig.h
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_config.h
  /Users/eabaca/esp/esp-idf/components/xtensa/include/xtensa/hal.h
@@ -366,7 +366,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/event_groups.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdint.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_intsup.h
@@ -480,7 +480,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/freertos_v8_compat.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_compiler.h
  /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/FreeRTOSConfig.h
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_config.h
  /Users/eabaca/esp/esp-idf/components/xtensa/include/xtensa/hal.h
@@ -607,7 +607,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/list.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdint.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_intsup.h
@@ -720,7 +720,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port/port_common.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/cdefs.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
@@ -852,7 +852,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port/port_systick.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdint.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_intsup.h
@@ -975,7 +975,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port/xtensa/port.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdint.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_intsup.h
@@ -1116,7 +1116,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port/xtensa/xtensa_init.c.obj
  /Users/eabaca/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
  /Users/eabaca/esp/esp-idf/components/xtensa/include/xtensa/corebits.h
  /Users/eabaca/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/FreeRTOSConfig.h
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_config.h
@@ -1163,7 +1163,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port/xtensa/xtensa_overlay_os_hoo
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_compiler.h
  /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/FreeRTOSConfig.h
  /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_config.h
  /Users/eabaca/esp/esp-idf/components/xtensa/include/xtensa/hal.h
@@ -1289,7 +1289,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/queue.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdint.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_intsup.h
@@ -1415,7 +1415,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/stream_buffer.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/cdefs.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
@@ -1532,7 +1532,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/tasks.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdint.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_intsup.h
@@ -1656,7 +1656,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/timers.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdint.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_intsup.h

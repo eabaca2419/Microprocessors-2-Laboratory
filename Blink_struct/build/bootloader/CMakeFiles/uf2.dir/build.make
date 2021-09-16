@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader
 
 # Utility rule file for uf2.
 
@@ -67,7 +67,7 @@ include CMakeFiles/uf2.dir/compiler_depend.make
 include CMakeFiles/uf2.dir/progress.make
 
 CMakeFiles/uf2: bootloader
-	/Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/tools/mkuf2.py write -o /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/uf2.bin --json /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/flasher_args.json --chip-id 0x1c5f21b0
+	/Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/tools/mkuf2.py write -o /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/uf2.bin --json /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/flasher_args.json --chip-id 0x1c5f21b0
 
 uf2: CMakeFiles/uf2
 uf2: CMakeFiles/uf2.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/uf2.dir/clean:
 .PHONY : CMakeFiles/uf2.dir/clean
 
 CMakeFiles/uf2.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/CMakeFiles/uf2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/CMakeFiles/uf2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uf2.dir/depend
 

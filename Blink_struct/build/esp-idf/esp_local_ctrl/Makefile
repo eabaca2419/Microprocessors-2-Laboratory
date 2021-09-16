@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/esp_local_ctrl//CMakeFiles/progress.marks
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_local_ctrl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles 0
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/CMakeFiles /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/esp_local_ctrl//CMakeFiles/progress.marks
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_local_ctrl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_local_ctrl/clean
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_local_ctrl/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_local_ctrl/preinstall
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_local_ctrl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_local_ctrl/preinstall
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_local_ctrl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/rule:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/rule
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/rule
 .PHONY : esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_local_ctrl: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir
 
 # fast build rule for target.
 __idf_esp_local_ctrl/fast:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build
 .PHONY : __idf_esp_local_ctrl/fast
 
 proto-c/esp_local_ctrl.pb-c.obj: proto-c/esp_local_ctrl.pb-c.c.obj
@@ -180,7 +180,7 @@ proto-c/esp_local_ctrl.pb-c.obj: proto-c/esp_local_ctrl.pb-c.c.obj
 
 # target to build an object file
 proto-c/esp_local_ctrl.pb-c.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/proto-c/esp_local_ctrl.pb-c.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/proto-c/esp_local_ctrl.pb-c.c.obj
 .PHONY : proto-c/esp_local_ctrl.pb-c.c.obj
 
 proto-c/esp_local_ctrl.pb-c.i: proto-c/esp_local_ctrl.pb-c.c.i
@@ -188,7 +188,7 @@ proto-c/esp_local_ctrl.pb-c.i: proto-c/esp_local_ctrl.pb-c.c.i
 
 # target to preprocess a source file
 proto-c/esp_local_ctrl.pb-c.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/proto-c/esp_local_ctrl.pb-c.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/proto-c/esp_local_ctrl.pb-c.c.i
 .PHONY : proto-c/esp_local_ctrl.pb-c.c.i
 
 proto-c/esp_local_ctrl.pb-c.s: proto-c/esp_local_ctrl.pb-c.c.s
@@ -196,7 +196,7 @@ proto-c/esp_local_ctrl.pb-c.s: proto-c/esp_local_ctrl.pb-c.c.s
 
 # target to generate assembly for a file
 proto-c/esp_local_ctrl.pb-c.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/proto-c/esp_local_ctrl.pb-c.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/proto-c/esp_local_ctrl.pb-c.c.s
 .PHONY : proto-c/esp_local_ctrl.pb-c.c.s
 
 src/esp_local_ctrl.obj: src/esp_local_ctrl.c.obj
@@ -204,7 +204,7 @@ src/esp_local_ctrl.obj: src/esp_local_ctrl.c.obj
 
 # target to build an object file
 src/esp_local_ctrl.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl.c.obj
 .PHONY : src/esp_local_ctrl.c.obj
 
 src/esp_local_ctrl.i: src/esp_local_ctrl.c.i
@@ -212,7 +212,7 @@ src/esp_local_ctrl.i: src/esp_local_ctrl.c.i
 
 # target to preprocess a source file
 src/esp_local_ctrl.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl.c.i
 .PHONY : src/esp_local_ctrl.c.i
 
 src/esp_local_ctrl.s: src/esp_local_ctrl.c.s
@@ -220,7 +220,7 @@ src/esp_local_ctrl.s: src/esp_local_ctrl.c.s
 
 # target to generate assembly for a file
 src/esp_local_ctrl.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl.c.s
 .PHONY : src/esp_local_ctrl.c.s
 
 src/esp_local_ctrl_handler.obj: src/esp_local_ctrl_handler.c.obj
@@ -228,7 +228,7 @@ src/esp_local_ctrl_handler.obj: src/esp_local_ctrl_handler.c.obj
 
 # target to build an object file
 src/esp_local_ctrl_handler.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_handler.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_handler.c.obj
 .PHONY : src/esp_local_ctrl_handler.c.obj
 
 src/esp_local_ctrl_handler.i: src/esp_local_ctrl_handler.c.i
@@ -236,7 +236,7 @@ src/esp_local_ctrl_handler.i: src/esp_local_ctrl_handler.c.i
 
 # target to preprocess a source file
 src/esp_local_ctrl_handler.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_handler.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_handler.c.i
 .PHONY : src/esp_local_ctrl_handler.c.i
 
 src/esp_local_ctrl_handler.s: src/esp_local_ctrl_handler.c.s
@@ -244,7 +244,7 @@ src/esp_local_ctrl_handler.s: src/esp_local_ctrl_handler.c.s
 
 # target to generate assembly for a file
 src/esp_local_ctrl_handler.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_handler.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_handler.c.s
 .PHONY : src/esp_local_ctrl_handler.c.s
 
 # Help Target
@@ -280,6 +280,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,7 +1,7 @@
 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.c.obj: \
  /Users/eabaca/esp/esp-idf/components/esp_pm/pm_trace.c \
  /Users/eabaca/esp/esp-idf/components/esp_pm/include/esp_private/pm_trace.h \
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/driver/include/driver/gpio.h \
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_err.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h \

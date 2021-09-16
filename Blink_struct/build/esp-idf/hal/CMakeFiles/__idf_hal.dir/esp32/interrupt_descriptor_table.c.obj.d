@@ -1,6 +1,6 @@
 esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/interrupt_descriptor_table.c.obj: \
  /Users/eabaca/esp/esp-idf/components/hal/esp32/interrupt_descriptor_table.c \
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/hal/include/hal/interrupt_controller_hal.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdbool.h \
  /Users/eabaca/esp/esp-idf/components/hal/include/hal/interrupt_controller_types.h \

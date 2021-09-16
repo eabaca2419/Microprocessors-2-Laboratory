@@ -1,7 +1,7 @@
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.obj: \
  /Users/eabaca/esp/esp-idf/components/mbedtls/mbedtls/library/x509_crt.c \
  /Users/eabaca/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h \
  /Users/eabaca/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed/limits.h \

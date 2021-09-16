@@ -2,7 +2,7 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ff.c.obj: \
  /Users/eabaca/esp/esp-idf/components/fatfs/src/ff.c \
  /Users/eabaca/esp/esp-idf/components/fatfs/src/ff.h \
  /Users/eabaca/esp/esp-idf/components/fatfs/src/ffconf.h \
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/param.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/config.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h \

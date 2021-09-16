@@ -2,7 +2,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj: \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/uart_periph.c \
  /Users/eabaca/esp/esp-idf/components/soc/include/soc/uart_periph.h \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h \

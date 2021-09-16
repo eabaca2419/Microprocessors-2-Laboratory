@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build
 
 # Utility rule file for flash.
 
@@ -67,7 +67,7 @@ include CMakeFiles/flash.dir/compiler_depend.make
 include CMakeFiles/flash.dir/progress.make
 
 CMakeFiles/flash:
-	cd /Users/eabaca/esp/esp-idf/components/esptool_py && /Applications/CMake.app/Contents/bin/cmake -D IDF_PATH="/Users/eabaca/esp/esp-idf" -D SERIAL_TOOL="/Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32" -D SERIAL_TOOL_ARGS="--before=default_reset --after=hard_reset write_flash @flash_args" -D WORKING_DIRECTORY="/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build" -P /Users/eabaca/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+	cd /Users/eabaca/esp/esp-idf/components/esptool_py && /Applications/CMake.app/Contents/bin/cmake -D IDF_PATH="/Users/eabaca/esp/esp-idf" -D SERIAL_TOOL="/Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32" -D SERIAL_TOOL_ARGS="--before=default_reset --after=hard_reset write_flash @flash_args" -D WORKING_DIRECTORY="/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build" -P /Users/eabaca/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
 
 flash: CMakeFiles/flash
 flash: CMakeFiles/flash.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/flash.dir/clean:
 .PHONY : CMakeFiles/flash.dir/clean
 
 CMakeFiles/flash.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0 /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0 /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles/flash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/CMakeFiles/flash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/flash.dir/depend
 

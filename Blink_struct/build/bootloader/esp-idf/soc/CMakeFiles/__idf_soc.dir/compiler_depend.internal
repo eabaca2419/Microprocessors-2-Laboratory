@@ -14,7 +14,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_assert.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h
@@ -57,7 +57,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_assert.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h
@@ -105,7 +105,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_assert.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h
@@ -145,7 +145,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_assert.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h
@@ -184,7 +184,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_assert.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h
@@ -224,7 +224,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_assert.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h
@@ -259,7 +259,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/lcd_periph.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_assert.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h
@@ -289,7 +289,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj
  /Users/eabaca/esp/esp-idf/components/soc/esp32/ledc_periph.c
  /Users/eabaca/esp/esp-idf/components/soc/include/soc/ledc_periph.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/ledc_reg.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h
@@ -336,7 +336,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mcpwm_periph.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_assert.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h
@@ -375,7 +375,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_intsup.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/pcnt_reg.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc.h
@@ -408,7 +408,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj
  /Users/eabaca/esp/esp-idf/components/soc/esp32/rmt_periph.c
  /Users/eabaca/esp/esp-idf/components/soc/include/soc/rmt_periph.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc.h
@@ -455,7 +455,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_assert.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h
@@ -503,7 +503,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_assert.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h
@@ -547,7 +547,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_intsup.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc_pins.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/spi_pins.h
@@ -591,7 +591,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sigmadelta_periph.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_intsup.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/gpio_sd_reg.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_assert.h
@@ -629,7 +629,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_newlib_version.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_intsup.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_assert.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
@@ -676,7 +676,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_assert.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h
@@ -707,7 +707,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj
  /Users/eabaca/esp/esp-idf/components/soc/esp32/touch_sensor_periph.c
  /Users/eabaca/esp/esp-idf/components/soc/include/soc/touch_sensor_periph.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/touch_sensor_channel.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc.h
@@ -749,7 +749,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj
  /Users/eabaca/esp/esp-idf/components/soc/esp32/uart_periph.c
  /Users/eabaca/esp/esp-idf/components/soc/include/soc/uart_periph.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h
@@ -791,7 +791,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj
  /Users/eabaca/esp/esp-idf/components/soc/lldesc.c
  /Users/eabaca/esp/esp-idf/components/soc/include/soc/lldesc.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdbool.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/esp_rom/include/esp32/rom/lldesc.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdint.h
@@ -806,5 +806,5 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/soc_include_legacy_warn.c.obj
  /Users/eabaca/esp/esp-idf/components/soc/soc_include_legacy_warn.c
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/config/sdkconfig.h
 

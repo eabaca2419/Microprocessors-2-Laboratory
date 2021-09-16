@@ -3,7 +3,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal_iram.c.obj: \
  /Users/eabaca/esp/esp-idf/components/hal/include/hal/uart_hal.h \
  /Users/eabaca/esp/esp-idf/components/hal/esp32/include/hal/uart_ll.h \
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_attr.h \
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/soc/include/soc/uart_periph.h \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h \

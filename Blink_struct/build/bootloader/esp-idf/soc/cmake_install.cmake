@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/esp-idf/soc/esp32/cmake_install.cmake")
+  include("/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/esp-idf/soc/esp32/cmake_install.cmake")
 
 endif()
 

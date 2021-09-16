@@ -1,7 +1,7 @@
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/eabaca/esp/esp-idf/components/mbedtls/port/esp_mem.c.obj: \
  /Users/eabaca/esp/esp-idf/components/mbedtls/port/esp_mem.c \
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_attr.h \
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/heap/include/esp_heap_caps.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdint.h \

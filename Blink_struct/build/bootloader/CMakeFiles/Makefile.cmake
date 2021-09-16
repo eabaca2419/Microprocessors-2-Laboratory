@@ -190,7 +190,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/git-data/grabRef.cmake"
   "config/sdkconfig.cmake"
   "config/sdkconfig.h"
-  "/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/sdkconfig"
+  "/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/sdkconfig"
   "/Users/eabaca/esp/esp-idf/examples/build_system/cmake/import_lib/main/lib/tinyxml2/.git"
   "/Users/eabaca/esp/esp-idf/examples/peripherals/secure_element/atecc608_ecdsa/components/esp-cryptoauthlib/.git"
   "/Users/eabaca/esp/esp-idf/tools/cmake/build.cmake"

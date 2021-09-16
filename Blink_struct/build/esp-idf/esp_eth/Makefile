@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/esp_eth//CMakeFiles/progress.marks
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_eth/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/CMakeFiles 0
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/CMakeFiles /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/esp_eth//CMakeFiles/progress.marks
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_eth/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_eth/clean
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_eth/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_eth/preinstall
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_eth/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_eth/preinstall
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_eth/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/rule:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/rule
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/rule
 .PHONY : esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_eth: esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/rule
 
 # fast build rule for target.
 __idf_esp_eth/fast:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build
 .PHONY : __idf_esp_eth/fast
 
 src/esp_eth.obj: src/esp_eth.c.obj
@@ -180,7 +180,7 @@ src/esp_eth.obj: src/esp_eth.c.obj
 
 # target to build an object file
 src/esp_eth.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth.c.obj
 .PHONY : src/esp_eth.c.obj
 
 src/esp_eth.i: src/esp_eth.c.i
@@ -188,7 +188,7 @@ src/esp_eth.i: src/esp_eth.c.i
 
 # target to preprocess a source file
 src/esp_eth.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth.c.i
 .PHONY : src/esp_eth.c.i
 
 src/esp_eth.s: src/esp_eth.c.s
@@ -196,7 +196,7 @@ src/esp_eth.s: src/esp_eth.c.s
 
 # target to generate assembly for a file
 src/esp_eth.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth.c.s
 .PHONY : src/esp_eth.c.s
 
 src/esp_eth_mac_esp.obj: src/esp_eth_mac_esp.c.obj
@@ -204,7 +204,7 @@ src/esp_eth_mac_esp.obj: src/esp_eth_mac_esp.c.obj
 
 # target to build an object file
 src/esp_eth_mac_esp.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_mac_esp.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_mac_esp.c.obj
 .PHONY : src/esp_eth_mac_esp.c.obj
 
 src/esp_eth_mac_esp.i: src/esp_eth_mac_esp.c.i
@@ -212,7 +212,7 @@ src/esp_eth_mac_esp.i: src/esp_eth_mac_esp.c.i
 
 # target to preprocess a source file
 src/esp_eth_mac_esp.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_mac_esp.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_mac_esp.c.i
 .PHONY : src/esp_eth_mac_esp.c.i
 
 src/esp_eth_mac_esp.s: src/esp_eth_mac_esp.c.s
@@ -220,7 +220,7 @@ src/esp_eth_mac_esp.s: src/esp_eth_mac_esp.c.s
 
 # target to generate assembly for a file
 src/esp_eth_mac_esp.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_mac_esp.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_mac_esp.c.s
 .PHONY : src/esp_eth_mac_esp.c.s
 
 src/esp_eth_netif_glue.obj: src/esp_eth_netif_glue.c.obj
@@ -228,7 +228,7 @@ src/esp_eth_netif_glue.obj: src/esp_eth_netif_glue.c.obj
 
 # target to build an object file
 src/esp_eth_netif_glue.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_netif_glue.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_netif_glue.c.obj
 .PHONY : src/esp_eth_netif_glue.c.obj
 
 src/esp_eth_netif_glue.i: src/esp_eth_netif_glue.c.i
@@ -236,7 +236,7 @@ src/esp_eth_netif_glue.i: src/esp_eth_netif_glue.c.i
 
 # target to preprocess a source file
 src/esp_eth_netif_glue.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_netif_glue.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_netif_glue.c.i
 .PHONY : src/esp_eth_netif_glue.c.i
 
 src/esp_eth_netif_glue.s: src/esp_eth_netif_glue.c.s
@@ -244,7 +244,7 @@ src/esp_eth_netif_glue.s: src/esp_eth_netif_glue.c.s
 
 # target to generate assembly for a file
 src/esp_eth_netif_glue.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_netif_glue.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_netif_glue.c.s
 .PHONY : src/esp_eth_netif_glue.c.s
 
 src/esp_eth_phy.obj: src/esp_eth_phy.c.obj
@@ -252,7 +252,7 @@ src/esp_eth_phy.obj: src/esp_eth_phy.c.obj
 
 # target to build an object file
 src/esp_eth_phy.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy.c.obj
 .PHONY : src/esp_eth_phy.c.obj
 
 src/esp_eth_phy.i: src/esp_eth_phy.c.i
@@ -260,7 +260,7 @@ src/esp_eth_phy.i: src/esp_eth_phy.c.i
 
 # target to preprocess a source file
 src/esp_eth_phy.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy.c.i
 .PHONY : src/esp_eth_phy.c.i
 
 src/esp_eth_phy.s: src/esp_eth_phy.c.s
@@ -268,7 +268,7 @@ src/esp_eth_phy.s: src/esp_eth_phy.c.s
 
 # target to generate assembly for a file
 src/esp_eth_phy.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy.c.s
 .PHONY : src/esp_eth_phy.c.s
 
 src/esp_eth_phy_dp83848.obj: src/esp_eth_phy_dp83848.c.obj
@@ -276,7 +276,7 @@ src/esp_eth_phy_dp83848.obj: src/esp_eth_phy_dp83848.c.obj
 
 # target to build an object file
 src/esp_eth_phy_dp83848.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_dp83848.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_dp83848.c.obj
 .PHONY : src/esp_eth_phy_dp83848.c.obj
 
 src/esp_eth_phy_dp83848.i: src/esp_eth_phy_dp83848.c.i
@@ -284,7 +284,7 @@ src/esp_eth_phy_dp83848.i: src/esp_eth_phy_dp83848.c.i
 
 # target to preprocess a source file
 src/esp_eth_phy_dp83848.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_dp83848.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_dp83848.c.i
 .PHONY : src/esp_eth_phy_dp83848.c.i
 
 src/esp_eth_phy_dp83848.s: src/esp_eth_phy_dp83848.c.s
@@ -292,7 +292,7 @@ src/esp_eth_phy_dp83848.s: src/esp_eth_phy_dp83848.c.s
 
 # target to generate assembly for a file
 src/esp_eth_phy_dp83848.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_dp83848.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_dp83848.c.s
 .PHONY : src/esp_eth_phy_dp83848.c.s
 
 src/esp_eth_phy_ip101.obj: src/esp_eth_phy_ip101.c.obj
@@ -300,7 +300,7 @@ src/esp_eth_phy_ip101.obj: src/esp_eth_phy_ip101.c.obj
 
 # target to build an object file
 src/esp_eth_phy_ip101.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_ip101.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_ip101.c.obj
 .PHONY : src/esp_eth_phy_ip101.c.obj
 
 src/esp_eth_phy_ip101.i: src/esp_eth_phy_ip101.c.i
@@ -308,7 +308,7 @@ src/esp_eth_phy_ip101.i: src/esp_eth_phy_ip101.c.i
 
 # target to preprocess a source file
 src/esp_eth_phy_ip101.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_ip101.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_ip101.c.i
 .PHONY : src/esp_eth_phy_ip101.c.i
 
 src/esp_eth_phy_ip101.s: src/esp_eth_phy_ip101.c.s
@@ -316,7 +316,7 @@ src/esp_eth_phy_ip101.s: src/esp_eth_phy_ip101.c.s
 
 # target to generate assembly for a file
 src/esp_eth_phy_ip101.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_ip101.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_ip101.c.s
 .PHONY : src/esp_eth_phy_ip101.c.s
 
 src/esp_eth_phy_ksz80xx.obj: src/esp_eth_phy_ksz80xx.c.obj
@@ -324,7 +324,7 @@ src/esp_eth_phy_ksz80xx.obj: src/esp_eth_phy_ksz80xx.c.obj
 
 # target to build an object file
 src/esp_eth_phy_ksz80xx.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_ksz80xx.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_ksz80xx.c.obj
 .PHONY : src/esp_eth_phy_ksz80xx.c.obj
 
 src/esp_eth_phy_ksz80xx.i: src/esp_eth_phy_ksz80xx.c.i
@@ -332,7 +332,7 @@ src/esp_eth_phy_ksz80xx.i: src/esp_eth_phy_ksz80xx.c.i
 
 # target to preprocess a source file
 src/esp_eth_phy_ksz80xx.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_ksz80xx.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_ksz80xx.c.i
 .PHONY : src/esp_eth_phy_ksz80xx.c.i
 
 src/esp_eth_phy_ksz80xx.s: src/esp_eth_phy_ksz80xx.c.s
@@ -340,7 +340,7 @@ src/esp_eth_phy_ksz80xx.s: src/esp_eth_phy_ksz80xx.c.s
 
 # target to generate assembly for a file
 src/esp_eth_phy_ksz80xx.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_ksz80xx.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_ksz80xx.c.s
 .PHONY : src/esp_eth_phy_ksz80xx.c.s
 
 src/esp_eth_phy_lan87xx.obj: src/esp_eth_phy_lan87xx.c.obj
@@ -348,7 +348,7 @@ src/esp_eth_phy_lan87xx.obj: src/esp_eth_phy_lan87xx.c.obj
 
 # target to build an object file
 src/esp_eth_phy_lan87xx.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_lan87xx.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_lan87xx.c.obj
 .PHONY : src/esp_eth_phy_lan87xx.c.obj
 
 src/esp_eth_phy_lan87xx.i: src/esp_eth_phy_lan87xx.c.i
@@ -356,7 +356,7 @@ src/esp_eth_phy_lan87xx.i: src/esp_eth_phy_lan87xx.c.i
 
 # target to preprocess a source file
 src/esp_eth_phy_lan87xx.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_lan87xx.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_lan87xx.c.i
 .PHONY : src/esp_eth_phy_lan87xx.c.i
 
 src/esp_eth_phy_lan87xx.s: src/esp_eth_phy_lan87xx.c.s
@@ -364,7 +364,7 @@ src/esp_eth_phy_lan87xx.s: src/esp_eth_phy_lan87xx.c.s
 
 # target to generate assembly for a file
 src/esp_eth_phy_lan87xx.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_lan87xx.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_lan87xx.c.s
 .PHONY : src/esp_eth_phy_lan87xx.c.s
 
 src/esp_eth_phy_rtl8201.obj: src/esp_eth_phy_rtl8201.c.obj
@@ -372,7 +372,7 @@ src/esp_eth_phy_rtl8201.obj: src/esp_eth_phy_rtl8201.c.obj
 
 # target to build an object file
 src/esp_eth_phy_rtl8201.c.obj:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_rtl8201.c.obj
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_rtl8201.c.obj
 .PHONY : src/esp_eth_phy_rtl8201.c.obj
 
 src/esp_eth_phy_rtl8201.i: src/esp_eth_phy_rtl8201.c.i
@@ -380,7 +380,7 @@ src/esp_eth_phy_rtl8201.i: src/esp_eth_phy_rtl8201.c.i
 
 # target to preprocess a source file
 src/esp_eth_phy_rtl8201.c.i:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_rtl8201.c.i
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_rtl8201.c.i
 .PHONY : src/esp_eth_phy_rtl8201.c.i
 
 src/esp_eth_phy_rtl8201.s: src/esp_eth_phy_rtl8201.c.s
@@ -388,7 +388,7 @@ src/esp_eth_phy_rtl8201.s: src/esp_eth_phy_rtl8201.c.s
 
 # target to generate assembly for a file
 src/esp_eth_phy_rtl8201.c.s:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_rtl8201.c.s
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_rtl8201.c.s
 .PHONY : src/esp_eth_phy_rtl8201.c.s
 
 # Help Target
@@ -442,6 +442,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

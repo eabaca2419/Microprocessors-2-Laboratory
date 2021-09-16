@@ -1,7 +1,7 @@
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/eabaca/esp/esp-idf/components/mbedtls/port/esp32/bignum.c.obj: \
  /Users/eabaca/esp/esp-idf/components/mbedtls/port/esp32/bignum.c \
  /Users/eabaca/esp/esp-idf/components/soc/include/soc/hwcrypto_periph.h \
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h \

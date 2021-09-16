@@ -1,7 +1,7 @@
 esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_tlsf.c.obj: \
  /Users/eabaca/esp/esp-idf/components/heap/heap_tlsf.c \
  /Users/eabaca/esp/esp-idf/components/heap/multi_heap_config.h \
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdint.h \

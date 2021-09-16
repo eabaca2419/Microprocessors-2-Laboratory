@@ -2,7 +2,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_ttls
  /Users/eabaca/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_ttls.c \
  /Users/eabaca/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
  /Users/eabaca/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h \
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h \
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdint.h \

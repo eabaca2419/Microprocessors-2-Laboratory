@@ -1,7 +1,7 @@
 esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal_iram.c.obj: \
  /Users/eabaca/esp/esp-idf/components/hal/ledc_hal_iram.c \
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_attr.h \
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h \
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h \
  /Users/eabaca/esp/esp-idf/components/hal/include/hal/ledc_hal.h \
  /Users/eabaca/esp/esp-idf/components/hal/esp32/include/hal/ledc_ll.h \
  /Users/eabaca/esp/esp-idf/components/hal/include/hal/ledc_types.h \

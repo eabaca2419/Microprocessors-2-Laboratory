@@ -20,7 +20,7 @@ esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_bio.c.obj
  /Users/eabaca/esp/esp-idf/components/openssl/include/openssl/bio.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/internal/ssl_dbg.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/platform/ssl_opt.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/platform/ssl_port.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_types.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/cdefs.h
@@ -77,7 +77,7 @@ esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_cert.c.obj
  /Users/eabaca/esp/esp-idf/components/openssl/include/internal/ssl_stack.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/internal/ssl_dbg.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/platform/ssl_opt.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/platform/ssl_port.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_types.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/cdefs.h
@@ -117,7 +117,7 @@ esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_err.c.obj
  /Users/eabaca/esp/esp-idf/components/openssl/library/ssl_err.c
  /Users/eabaca/esp/esp-idf/components/openssl/include/internal/ssl_dbg.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/platform/ssl_opt.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/platform/ssl_port.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_types.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/cdefs.h
@@ -182,7 +182,7 @@ esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_lib.c.obj
  /Users/eabaca/esp/esp-idf/components/openssl/include/internal/ssl_cert.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/internal/ssl_dbg.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/platform/ssl_opt.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/platform/ssl_port.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_types.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/cdefs.h
@@ -249,7 +249,7 @@ esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_methods.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/cdefs.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
@@ -290,7 +290,7 @@ esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_pkey.c.obj
  /Users/eabaca/esp/esp-idf/components/openssl/include/internal/ssl_methods.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/internal/ssl_dbg.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/platform/ssl_opt.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/platform/ssl_port.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_types.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/cdefs.h
@@ -345,7 +345,7 @@ esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_stack.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/internal/ssl_dbg.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/platform/ssl_opt.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/platform/ssl_port.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_types.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/cdefs.h
@@ -401,7 +401,7 @@ esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_x509.c.obj
  /Users/eabaca/esp/esp-idf/components/openssl/include/internal/ssl_methods.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/internal/ssl_dbg.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/platform/ssl_opt.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/openssl/include/platform/ssl_port.h
  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_types.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/cdefs.h
@@ -463,7 +463,7 @@ esp-idf/openssl/CMakeFiles/__idf_openssl.dir/platform/ssl_pm.c.obj
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h
  /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/cdefs.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h
@@ -576,7 +576,7 @@ esp-idf/openssl/CMakeFiles/__idf_openssl.dir/platform/ssl_port.c.obj
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdbool.h
  /Users/eabaca/esp/esp-idf/components/log/include/esp_log.h
  /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdarg.h
- /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/config/sdkconfig.h
+ /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/config/sdkconfig.h
  /Users/eabaca/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h
  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h
  /Users/eabaca/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h

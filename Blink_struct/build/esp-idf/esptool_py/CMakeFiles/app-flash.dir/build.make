@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build
 
 # Utility rule file for app-flash.
 
@@ -67,7 +67,7 @@ include esp-idf/esptool_py/CMakeFiles/app-flash.dir/compiler_depend.make
 include esp-idf/esptool_py/CMakeFiles/app-flash.dir/progress.make
 
 esp-idf/esptool_py/CMakeFiles/app-flash:
-	cd /Users/eabaca/esp/esp-idf/components/esptool_py && /Applications/CMake.app/Contents/bin/cmake -D IDF_PATH="/Users/eabaca/esp/esp-idf" -D SERIAL_TOOL="/Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32" -D SERIAL_TOOL_ARGS="--before=default_reset --after=hard_reset write_flash @app-flash_args" -D WORKING_DIRECTORY="/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build" -P /Users/eabaca/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+	cd /Users/eabaca/esp/esp-idf/components/esptool_py && /Applications/CMake.app/Contents/bin/cmake -D IDF_PATH="/Users/eabaca/esp/esp-idf" -D SERIAL_TOOL="/Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32" -D SERIAL_TOOL_ARGS="--before=default_reset --after=hard_reset write_flash @app-flash_args" -D WORKING_DIRECTORY="/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build" -P /Users/eabaca/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
 
 app-flash: esp-idf/esptool_py/CMakeFiles/app-flash
 app-flash: esp-idf/esptool_py/CMakeFiles/app-flash.dir/build.make
@@ -78,10 +78,10 @@ esp-idf/esptool_py/CMakeFiles/app-flash.dir/build: app-flash
 .PHONY : esp-idf/esptool_py/CMakeFiles/app-flash.dir/build
 
 esp-idf/esptool_py/CMakeFiles/app-flash.dir/clean:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/esptool_py && $(CMAKE_COMMAND) -P CMakeFiles/app-flash.dir/cmake_clean.cmake
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/esptool_py && $(CMAKE_COMMAND) -P CMakeFiles/app-flash.dir/cmake_clean.cmake
 .PHONY : esp-idf/esptool_py/CMakeFiles/app-flash.dir/clean
 
 esp-idf/esptool_py/CMakeFiles/app-flash.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0 /Users/eabaca/esp/esp-idf/components/esptool_py /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/esptool_py /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/esptool_py/CMakeFiles/app-flash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct /Users/eabaca/esp/esp-idf/components/esptool_py /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/esptool_py /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/esptool_py/CMakeFiles/app-flash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/esptool_py/CMakeFiles/app-flash.dir/depend
 

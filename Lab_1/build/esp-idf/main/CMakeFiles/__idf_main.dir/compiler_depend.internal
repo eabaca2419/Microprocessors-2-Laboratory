@@ -115,16 +115,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
  /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/task.h
  /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/list.h
  /Users/eabaca/esp/esp-idf/components/freertos/include/esp_additions/freertos/task_snapshot.h
- /Users/eabaca/esp/esp-idf/components/driver/include/driver/gpio.h
- /Users/eabaca/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h
- /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_types.h
- /Users/eabaca/esp/esp-idf/components/soc/include/soc/gpio_periph.h
- /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h
- /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/gpio_struct.h
- /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/gpio_reg.h
- /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h
- /Users/eabaca/esp/esp-idf/components/hal/include/hal/gpio_types.h
- /Users/eabaca/esp/esp-idf/components/esp_rom/include/esp32/rom/gpio.h
- /Users/eabaca/esp/esp-idf/components/log/include/esp_log.h
- /Users/eabaca/esp/esp-idf/components/log/include/esp_log_internal.h
+ /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/semphr.h
+ /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/queue.h
+ /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/task.h
 

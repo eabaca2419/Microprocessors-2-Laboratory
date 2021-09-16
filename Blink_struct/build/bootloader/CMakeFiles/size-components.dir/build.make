@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader
 
 # Utility rule file for size-components.
 
@@ -67,7 +67,7 @@ include CMakeFiles/size-components.dir/compiler_depend.make
 include CMakeFiles/size-components.dir/progress.make
 
 CMakeFiles/size-components: bootloader.elf
-	/Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/tools/idf_size.py --archives /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/bootloader.map
+	/Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/tools/idf_size.py --archives /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/bootloader.map
 
 size-components: CMakeFiles/size-components
 size-components: CMakeFiles/size-components.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/size-components.dir/clean:
 .PHONY : CMakeFiles/size-components.dir/clean
 
 CMakeFiles/size-components.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/CMakeFiles/size-components.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/CMakeFiles/size-components.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/size-components.dir/depend
 

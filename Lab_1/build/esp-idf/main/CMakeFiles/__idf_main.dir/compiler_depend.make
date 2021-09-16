@@ -114,29 +114,14 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: ../main/main.c \
   /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/task.h \
   /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/list.h \
   /Users/eabaca/esp/esp-idf/components/freertos/include/esp_additions/freertos/task_snapshot.h \
-  /Users/eabaca/esp/esp-idf/components/driver/include/driver/gpio.h \
-  /Users/eabaca/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
-  /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_types.h \
-  /Users/eabaca/esp/esp-idf/components/soc/include/soc/gpio_periph.h \
-  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h \
-  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/gpio_struct.h \
-  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/gpio_reg.h \
-  /Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
-  /Users/eabaca/esp/esp-idf/components/hal/include/hal/gpio_types.h \
-  /Users/eabaca/esp/esp-idf/components/esp_rom/include/esp32/rom/gpio.h \
-  /Users/eabaca/esp/esp-idf/components/log/include/esp_log.h \
-  /Users/eabaca/esp/esp-idf/components/log/include/esp_log_internal.h
+  /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/semphr.h \
+  /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/queue.h \
+  /Users/eabaca/esp/esp-idf/components/freertos/include/freertos/task.h
 
 
-/Users/eabaca/esp/esp-idf/components/log/include/esp_log.h:
+/Users/eabaca/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-/Users/eabaca/esp/esp-idf/components/esp_rom/include/esp32/rom/gpio.h:
-
-/Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:
-
-/Users/eabaca/esp/esp-idf/components/esp_common/include/esp_types.h:
-
-/Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
+/Users/eabaca/esp/esp-idf/components/freertos/include/freertos/semphr.h:
 
 /Users/eabaca/esp/esp-idf/components/freertos/include/esp_additions/freertos/task_snapshot.h:
 
@@ -155,8 +140,6 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: ../main/main.c \
 /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_api.h:
 
 /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_assert.h:
-
-/Users/eabaca/esp/esp-idf/components/log/include/esp_log_internal.h:
 
 /Users/eabaca/esp/esp-idf/components/esp_hw_support/include/soc/compare_set.h:
 
@@ -214,15 +197,11 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: ../main/main.c \
 
 /Users/eabaca/esp/esp-idf/components/xtensa/include/xtensa/xtensa_context.h:
 
-/Users/eabaca/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:
-
 /Users/eabaca/esp/esp-idf/components/esp_common/include/esp_err.h:
 
 /Users/eabaca/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_context.h:
 
 /Users/eabaca/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h:
-
-/Users/eabaca/esp/esp-idf/components/soc/include/soc/gpio_periph.h:
 
 /Users/eabaca/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h:
 
@@ -320,8 +299,6 @@ config/sdkconfig.h:
 
 /Users/eabaca/esp/esp-idf/components/newlib/platform_include/sys/reent.h:
 
-/Users/eabaca/esp/esp-idf/components/driver/include/driver/gpio.h:
-
 /Users/eabaca/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h:
 
 /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/config.h:
@@ -338,11 +315,7 @@ config/sdkconfig.h:
 
 /Users/eabaca/esp/esp-idf/components/soc/include/soc/soc_memory_types.h:
 
-/Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h:
-
 /Users/eabaca/esp/esp-idf/components/newlib/platform_include/assert.h:
-
-/Users/eabaca/esp/esp-idf/components/hal/include/hal/gpio_types.h:
 
 /Users/eabaca/esp/esp-idf/components/hal/esp32/include/hal/cpu_ll.h:
 
@@ -361,8 +334,6 @@ config/sdkconfig.h:
 /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/newlib.h:
 
 /Users/eabaca/esp/esp-idf/components/esp_hw_support/include/soc/spinlock.h:
-
-/Users/eabaca/esp/esp-idf/components/soc/esp32/include/soc/gpio_reg.h:
 
 /Users/eabaca/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/features.h:
 

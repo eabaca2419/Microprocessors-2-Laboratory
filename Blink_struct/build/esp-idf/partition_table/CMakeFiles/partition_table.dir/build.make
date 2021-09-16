@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0
+CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build
 
 # Utility rule file for partition_table.
 
@@ -67,10 +67,10 @@ include esp-idf/partition_table/CMakeFiles/partition_table.dir/compiler_depend.m
 include esp-idf/partition_table/CMakeFiles/partition_table.dir/progress.make
 
 esp-idf/partition_table/CMakeFiles/partition_table:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/partition_table && /Applications/CMake.app/Contents/bin/cmake -E echo "Partition table binary generated. Contents:"
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/partition_table && /Applications/CMake.app/Contents/bin/cmake -E echo "*******************************************************************************"
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/partition_table && /Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 2MB /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/partition_table/partition-table.bin
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/partition_table && /Applications/CMake.app/Contents/bin/cmake -E echo "*******************************************************************************"
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/partition_table && /Applications/CMake.app/Contents/bin/cmake -E echo "Partition table binary generated. Contents:"
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/partition_table && /Applications/CMake.app/Contents/bin/cmake -E echo "*******************************************************************************"
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/partition_table && /Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 2MB /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/partition_table/partition-table.bin
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/partition_table && /Applications/CMake.app/Contents/bin/cmake -E echo "*******************************************************************************"
 
 partition_table: esp-idf/partition_table/CMakeFiles/partition_table
 partition_table: esp-idf/partition_table/CMakeFiles/partition_table.dir/build.make
@@ -81,10 +81,10 @@ esp-idf/partition_table/CMakeFiles/partition_table.dir/build: partition_table
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table.dir/build
 
 esp-idf/partition_table/CMakeFiles/partition_table.dir/clean:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table.dir/cmake_clean.cmake
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table.dir/cmake_clean.cmake
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table.dir/clean
 
 esp-idf/partition_table/CMakeFiles/partition_table.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0 /Users/eabaca/esp/esp-idf/components/partition_table /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/partition_table /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/esp-idf/partition_table/CMakeFiles/partition_table.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct /Users/eabaca/esp/esp-idf/components/partition_table /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/partition_table /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/esp-idf/partition_table/CMakeFiles/partition_table.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table.dir/depend
 

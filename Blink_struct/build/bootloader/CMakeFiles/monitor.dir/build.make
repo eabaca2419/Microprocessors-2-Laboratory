@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/eabaca/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader
+CMAKE_BINARY_DIR = /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader
 
 # Utility rule file for monitor.
 
@@ -67,7 +67,7 @@ include CMakeFiles/monitor.dir/compiler_depend.make
 include CMakeFiles/monitor.dir/progress.make
 
 CMakeFiles/monitor:
-	cd /Users/eabaca/esp/esp-idf/components/esptool_py && /Applications/CMake.app/Contents/bin/cmake -D IDF_PATH="/Users/eabaca/esp/esp-idf" -D SERIAL_TOOL="/Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/tools/idf_monitor.py" -D SERIAL_TOOL_ARGS="--target esp32 /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/bootloader.elf" -D WORKING_DIRECTORY="/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader" -P run_serial_tool.cmake
+	cd /Users/eabaca/esp/esp-idf/components/esptool_py && /Applications/CMake.app/Contents/bin/cmake -D IDF_PATH="/Users/eabaca/esp/esp-idf" -D SERIAL_TOOL="/Users/eabaca/.espressif/python_env/idf4.4_py3.9_env/bin/python /Users/eabaca/esp/esp-idf/tools/idf_monitor.py" -D SERIAL_TOOL_ARGS="--target esp32 /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/bootloader.elf" -D WORKING_DIRECTORY="/Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader" -P run_serial_tool.cmake
 
 monitor: CMakeFiles/monitor
 monitor: CMakeFiles/monitor.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/monitor.dir/clean:
 .PHONY : CMakeFiles/monitor.dir/clean
 
 CMakeFiles/monitor.dir/depend:
-	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Lab_0/build/bootloader/CMakeFiles/monitor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/components/bootloader/subproject /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader /Users/eabaca/esp/esp-idf/examples/Micro_2_Lab/Blink_struct/build/bootloader/CMakeFiles/monitor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/monitor.dir/depend
 
