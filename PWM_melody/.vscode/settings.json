@@ -1,0 +1,8 @@
+{
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "files.associations": {
+    "gpio.h": "c",
+    "driver.h": "c",
+    "mcpwm.h": "c"
+  }
+}
